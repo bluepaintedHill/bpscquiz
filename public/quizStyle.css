@@ -1,0 +1,207 @@
+/* Layout & Question Box */
+.question-box {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.question-box strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Options */
+.options label {
+  display: block;
+  margin-bottom: 10px;
+  background: var(--option-bg);
+  color: var(--option-text);
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.options label:hover {
+  background-color: var(--option-hover);
+}
+
+.options input[type="radio"] {
+  margin-right: 10px;
+}
+
+.options label.correct {
+  background-color: #d4edda !important;  /* light green */
+  color: #155724  !important;  /* dark green text */
+}
+.options label.incorrect {
+  background-color: #f8d7da !important;  /* light red */
+  color: #721c24   !important;  /* dark red text */
+}
+
+/* Navigation Buttons */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.navigation button {
+  flex: 1;
+  min-width: 100px;
+  margin: 10px 10px 0 0;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+}
+.navigation button:last-child {
+  background: #28a745;
+}
+.navigation button:hover {
+  opacity: 0.9;
+}
+
+/* Summary Charts */
+.summary {
+  text-align: center;
+  margin-top: 40px;
+}
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Review Map Button */
+.review-map-btn {
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+.review-map-btn:hover {
+  background-color: #495057;
+}
+
+/*mode-selector*/
+#modeSelector {
+  background-color: var(--mode-bg);
+  color: var(--mode-text);
+  border-left: 5px solid var(--mode-text);
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 320px;
+}
+#modeSelector label {
+  color: var(--text-color);
+}
+
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal-content {
+  background: var(--card-bg);
+  padding: 25px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  position: relative;
+}
+.close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--close-color);
+  cursor: pointer;
+}
+
+
+/* Map Grid & Tiles */
+#mapGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+  gap: 10px;
+  margin: 20px 0;
+}
+.tile {
+  width: 40px; height: 40px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tile.answered {
+  background-color: #007bff;
+  color: #fff;
+}
+.tile.incorrect {
+  background-color: #dc3545;
+  color: #fff;
+}
+.tile.unanswered {
+  background-color: #dee2e6;
+  color: #333;
+}
+.tile.marked {
+  border: 2px solid purple;
+  box-shadow: 0 0 4px purple;
+}
+
+/* Pagination Buttons */
+.map-nav {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+.map-nav button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.map-nav button:hover {
+  background-color: #0056b3;
+}
+
+/* Legend Items */
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 16px;
+  margin-bottom: 6px;
+}
+.legend-box {
+  display: inline-block;
+  width: 14px; height: 14px;
+  margin-right: 6px;
+  border-radius: 3px;
+}

@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BPSC Quiz <%= year %></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  /*===============================
+    Light / Dark Mode Color Variables
+  ===============================*/
+  :root {
+    --bg-color:    #f8f9fa;
+    --text-color:  #212529;
+    --card-bg:     #ffffff;
+    --btn-bg:      #007bff;
+    --btn-text:    #ffffff;
+    --filter-bg:   #eef4fb;
+    --option-bg:    #f1f1f1;
+  --option-text:  #212529;
+  --option-hover: #e2e6ea;
+   --close-color: #333;
+   --mode-bg: #eef4fb;
+  --mode-text: #0056b3;
+  }
+
+  /* Base page styling */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+  }
+
+  /* Dark mode overrides */
+  body.dark-mode {
+    --bg-color:  #181a1b;
+    --text-color:#e8e6e3;
+    --card-bg:   #242526;
+    --btn-bg:    #3a3b3c;
+    --btn-text:  #e8e6e3;
+    --filter-bg: #242526;
+     --option-bg:    #3a3b3c;
+  --option-text:  #e8e6e3;
+  --option-hover: #4e4f50;
+    --close-color: #e8e6e3;
+    --mode-bg: #2e2e2e;
+  --mode-text: #88c0d0;
+  }
+
+  /* Container & typography */
+  .app-container {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  h1 {
+    text-align: center;
+    color: var(--text-color);
+  }
+
+  /* Hot‑spot selectors for theming */
+  .question-box,
+  .modal-content,
+  #modeSelector {
+    background-color: var(--card-bg);
+  }
+  button,
+  .navigation button,
+  .review-map-btn,
+  #darkModeToggle {
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+  }
+  .filter-section {
+    background-color: var(--filter-bg);
+  }
+</style>
+
+  <link rel="stylesheet" type="text/css" href="/quizStyle.css">
+</head>
+<body>
+  <div class="app-container">
+  <!-- Dark Mode Toggle (put in header or modeSelector) -->
+<button id="darkModeToggle" style="
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: black;
+">🌙 Dark Mode</button>
+
+
+  <div id="modeSelector">
+  <strong>Mode:</strong><br>
+  <label><input type="radio" name="mode" value="quiz" checked onchange="switchMode('quiz')"> Quiz</label>
+  <label><input type="radio" name="mode" value="eval" onchange="switchMode('eval')"> Evaluation</label>
+  <div id="modeNote" style="margin-top: 8px; font-size: 0.9em;"></div>
+</div>
+
+  <h1>BPSC Quiz - <%= year %></h1>
+
+
+  <div class="filter-section" style="margin-bottom: 20px;">
+  <button onclick="toggleFilterPanel()" id="toggleFilterBtn">Show Filters ⬇️</button>
+  <div id="filterPanel" style="display: none; margin-top: 10px;">
+    <strong>Filter by Category:</strong>
+    <div id="tagFilters" style="margin: 10px 0;"></div>
+    <label>
+    <input type="checkbox" id="shuffleToggle" onchange="toggleShuffle()"> Shuffle Questions
+    </label>
+  </div>
+</div>
+
+
+  <div id="questionContainer" class="question-box"></div>
+
+  <div class="navigation">
+    <button onclick="prevQuestion()">⟵ Previous</button>
+    <button onclick="nextQuestion()">Next ⟶</button>
+    <button onclick="submitQuiz()" id="submitBtn">✅ Finish Test</button>
+  </div>
+
+  <div class="summary">
+    <div style="display: flex; flex-direction: column; gap: 30px; align-items: center;">
+      <div style="width: 100%; max-width: 400px;">
+        <canvas id="resultChart" style="display:none;"></canvas>
+        <p id="accuracyText" style="display:none; text-align:center; font-weight:bold; font-size:1.1em; margin-top: 10px;"></p>
+
+      </div>
+      <div style="width: 100%; max-width: 600px;">
+        <canvas id="timeChart" style="display:none;"></canvas>
+      </div>
+      <div style="width: 100%; max-width: 800px;">
+        <canvas id="lineChart" style="display:none;"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Under your charts -->
+<button id="openMapBtn" class="review-map-btn">🔍 Review Map</button>
+
+<!-- Modal -->
+<div id="mapModal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span class="close" onclick="hideMap()">&times;</span>
+    <h2>Question Map — Page <span id="mapPageNum">1</span> of <span id="mapTotalPages"></span></h2>
+    
+
+ <!-- 🧭 Legend Area -->
+<div id="legend" style="margin: 10px 0; font-size: 0.9em; color: #555;">
+  <!-- Quiz Mode Legend -->
+  <div id="legendQuiz">
+    <span class="legend-item">
+      <span class="legend-box" style="background:#007bff;"></span> Answered
+    </span>
+    <span class="legend-item">
+      <span class="legend-box" style="background:#dee2e6;"></span> Unanswered
+    </span>
+    <span class="legend-item">
+      <span class="legend-box" style="background:transparent; border:2px solid purple;"></span> Marked for Review
+    </span>
+  </div>
+
+  <!-- Evaluation Mode Legend -->
+  <div id="legendEval" style="display:none;">
+    <span class="legend-item">
+      <span class="legend-box" style="background:#007bff;"></span> Correct
+    </span>
+    <span class="legend-item">
+      <span class="legend-box" style="background:#dc3545;"></span> Incorrect
+    </span>
+    <span class="legend-item">
+      <span class="legend-box" style="background:#dee2e6;"></span> Unanswered
+    </span>
+    <span class="legend-item">
+      <span class="legend-box" style="background:transparent; border:2px solid purple;"></span> Marked for Review
+    </span>
+  </div>
+</div>
+
+
+
+
+    <div id="mapGrid"></div>
+    <div class="map-nav">
+      <button onclick="prevMapPage()">← Prev</button>
+      <button onclick="nextMapPage()">Next →</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  let currentMode = 'quiz';
+
+  const year = "<%= year %>";
+  let questions = [];
+  let visibleQuestions = [];       // the pool we actually render
+  let currentQuestionIndex = 0;
+  let selectedAnswers = JSON.parse(localStorage.getItem(`answers_${year}`)) || {};
+
+  let reviewMarks = JSON.parse(localStorage.getItem(`reviewMarks_${year}`)) || {};
+
+  let pieChart = null;
+  let barChart = null;
+  let lineChart = null;
+
+
+  let timeStamps = {};             // { qid: { start, duration, tag } }
+  let tagTimes = {};               // { tag: seconds }
+  let tagsSet = new Set();
+  let activeTags = new Set();      // tags user has checked
+  let shuffleEnabled = false;
+
+  // Toggle show/hide filter panel
+  function toggleFilterPanel() {
+    const panel = document.getElementById("filterPanel");
+    const btn   = document.getElementById("toggleFilterBtn");
+    const isVis = panel.style.display === "block";
+    panel.style.display = isVis ? "none" : "block";
+    btn.textContent     = isVis ? "Show Filters ⬇️" : "Hide Filters ⬆️";
+  }
+
+  // Fisher–Yates shuffle
+  function shuffle(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  // Recompute the visibleQuestions array after filter or shuffle changes
+  function recomputeVisibleQuestions() {
+    const filtered = questions.filter(q => activeTags.has(q.tag));
+    visibleQuestions = shuffleEnabled ? shuffle(filtered) : filtered;
+    currentQuestionIndex = 0;
+    renderQuestion();
+  }
+
+  // Called when user toggles shuffle checkbox
+  function toggleShuffle() {
+    shuffleEnabled = document.getElementById("shuffleToggle").checked;
+    recomputeVisibleQuestions();
+  }
+
+
+  // Dark mode setup
+const darkToggle = document.getElementById('darkModeToggle');
+
+// Apply saved preference on load
+const savedDark = localStorage.getItem('darkMode') === 'true';
+if (savedDark) document.body.classList.add('dark-mode');
+updateDarkButton();
+
+// Toggle handler
+darkToggle.onclick = () => {
+  document.body.classList.toggle('dark-mode');
+  const isDark = document.body.classList.contains('dark-mode');
+  localStorage.setItem('darkMode', isDark);
+  updateDarkButton();
+};
+
+function updateDarkButton() {
+  const isDark = document.body.classList.contains('dark-mode');
+  darkToggle.innerText = isDark ? '☀️ Light Mode' : '🌙 Dark Mode';
+}
+
+
+function getChartColors() {
+  const isDark = document.body.classList.contains('dark-mode');
+  return {
+    fontColor: isDark ? '#e8e6e3' : '#212529',
+    gridColor: isDark ? '#444' : '#ccc',
+    bgColor: isDark ? '#2e2e2e' : '#fff'
+  };
+}
+
+
+  // Fetch questions and initialize
+  async function loadQuestions() {
+    const res = await fetch(`/api/questions/${year}`);
+    questions = await res.json();
+    questions.forEach(q => tagsSet.add(q.tag));
+    tagsSet.forEach(tag => activeTags.add(tag));  // enable all by default
+    renderFilters();
+    // initialize shuffle flag from checkbox (should be unchecked by default)
+    shuffleEnabled = document.getElementById("shuffleToggle").checked;
+    recomputeVisibleQuestions();
+  }
+
+  // Render the tag checkboxes & shuffle toggle
+  function renderFilters() {
+    const tagDiv = document.getElementById("tagFilters");
+    tagDiv.innerHTML = "";
+    tagsSet.forEach(tag => {
+      const id = `tag_${tag}`;
+      tagDiv.innerHTML += `
+        <label style="margin-right: 12px;">
+          <input type="checkbox" id="${id}" checked onchange="toggleTag('${tag}')"> ${tag}
+        </label>
+      `;
+    });
+  }
+
+  // Called when a tag checkbox is toggled
+  function toggleTag(tag) {
+    if (activeTags.has(tag)) activeTags.delete(tag);
+    else activeTags.add(tag);
+    recomputeVisibleQuestions();
+  }
+
+  // Timing helpers
+  function startTimerForQuestion(qid, tag) {
+    const now = Date.now();
+    if (!timeStamps[qid]) timeStamps[qid] = { start: now, duration: 0, tag };
+    else timeStamps[qid].start = now;
+  }
+  
+  
+  function stopTimerForQuestion(qid) {
+    const now = Date.now();
+    const rec = timeStamps[qid];
+    if (rec && rec.start) {
+      const diff = (now - rec.start) / 1000;
+      rec.duration += diff;
+      tagTimes[rec.tag] = (tagTimes[rec.tag] || 0) + diff;
+    }
+  }
+
+  // Display the current question
+function renderQuestion() {
+  const container = document.getElementById("questionContainer");
+
+  if (!visibleQuestions.length) {
+    container.innerHTML = "<em>No questions match selected tags.</em>";
+    return;
+  }
+  if (currentQuestionIndex >= visibleQuestions.length) currentQuestionIndex = 0;
+  const q = visibleQuestions[currentQuestionIndex];
+
+  // Stop previous timer, start new
+  if (currentQuestionIndex > 0) {
+    stopTimerForQuestion(visibleQuestions[currentQuestionIndex - 1].id);
+  }
+  startTimerForQuestion(q.id, q.tag);
+
+  const sel = selectedAnswers[q.id] || "";
+
+  // Render question + options + review checkbox
+  container.innerHTML = `
+    <div id="q${q.id}">
+      <strong>Q${q.id}: ${q.question}</strong>
+      <div class="options">
+        ${q.options.map((opt, i) => `
+          <label>
+            <input type="radio" name="q${q.id}" value="${'ABCD'[i]}"
+              ${sel === 'ABCD'[i] ? 'checked' : ''}
+              onchange="markAnswer(${q.id}, '${'ABCD'[i]}')">
+            ${'ABCD'[i]}. ${opt}
+          </label>
+        `).join('')}
+      </div>
+    </div>
+    <div style="text-align:right; font-size:0.9em; margin-top:8px;">
+      Question ${currentQuestionIndex + 1} of ${visibleQuestions.length}
+      <span style="font-style:italic; color:#666;">(${q.tag})</span>
+    </div>
+    <div style="margin-top:8px;">
+      <label>
+        <input type="checkbox" onchange="toggleReviewMark(${q.id})" ${reviewMarks[q.id] ? 'checked' : ''}>
+        Mark for Review
+      </label>
+    </div>
+  `;
+
+  // ONLY class‑based feedback—remove inline‑styles entirely
+  if (currentMode === 'eval' && sel) {
+    const radios = document.querySelectorAll(`input[name="q${q.id}"]`);
+    radios.forEach(radio => {
+      const label = radio.parentElement;
+      label.classList.remove('correct','incorrect');
+      if (radio.value === q.answer) {
+        label.classList.add('correct');
+      }
+      if (radio.value === sel && sel !== q.answer) {
+        label.classList.add('incorrect');
+      }
+    });
+  }
+}
+
+  // Save answer selection
+ function markAnswer(id, opt) {
+  if (currentMode === 'quiz') {
+    selectedAnswers[id] = opt;
+    localStorage.setItem(`answers_${year}`, JSON.stringify(selectedAnswers));
+  } else if (currentMode === 'eval') {
+    selectedAnswers[id] = opt; // store it only in memory
+    renderQuestion(); // re-render to apply feedback
+  }
+}
+
+
+  // Navigation
+  function nextQuestion() {
+    if (currentQuestionIndex < visibleQuestions.length - 1) {
+      currentQuestionIndex++;
+      renderQuestion();
+    }
+  }
+  function prevQuestion() {
+    if (currentQuestionIndex > 0) {
+      currentQuestionIndex--;
+      renderQuestion();
+    }
+  }
+
+  // On Finish Test
+function submitQuiz() {
+  stopTimerForQuestion(visibleQuestions[currentQuestionIndex]?.id);
+  let correct=0, incorrect=0, unattempted=0;
+  visibleQuestions.forEach(q => {
+    const sel = selectedAnswers[q.id];
+    if (!sel) unattempted++;
+    else if (sel===q.answer) correct++;
+    else incorrect++;
+  });
+
+  // Draw all charts (which now cleanly destroy + recreate)
+  renderPieChart(correct, incorrect, unattempted);
+  renderBarChart();
+  renderLineChart();
+
+  // Show accuracy
+  const total = correct+incorrect;
+  const acc  = total>0 ? ((correct/total)*100).toFixed(1) : "0.0";
+  const e    = document.getElementById("accuracyText");
+  e.innerText = `🎯 Accuracy: ${acc}%`;
+  e.style.display = "block";
+
+  // Only now clear answers
+  localStorage.removeItem(`answers_${year}`);
+  selectedAnswers = {};
+}
+
+function switchMode(mode) {
+  if (currentMode === mode) return;
+
+  // 1. Update mode & reset position
+  currentMode = mode;
+  currentQuestionIndex = 0;
+
+    document.getElementById("accuracyText").style.display = "none";
+
+  // 2. Clear all stored answers & marks
+  localStorage.removeItem(`answers_${year}`);
+  localStorage.removeItem(`reviewMarks_${year}`);
+  selectedAnswers = {};
+  reviewMarks = {};
+
+  // 3. Hide all result sections
+  ["resultChart","timeChart","lineChart","accuracyText","reviewContainer"]
+  .forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = "none";
+});
+
+  // 4. Update Finish button & mode note
+  document.getElementById('submitBtn').innerText =
+    mode === 'quiz' ? '✅ Finish Test' : '📊 Finish Evaluation';
+  document.getElementById('modeNote').innerText =
+    mode === 'quiz'
+      ? 'In Quiz Mode: your answers are saved and reviewed at the end.'
+      : 'In Evaluation Mode: you get instant feedback per question.';
+
+  // 5. Toggle which legend is visible
+  const quizLegend = document.getElementById("legendQuiz");
+  const evalLegend = document.getElementById("legendEval");
+  if (quizLegend && evalLegend) {
+    quizLegend.style.display = mode === 'quiz' ? 'block' : 'none';
+    evalLegend.style.display = mode === 'eval' ? 'block' : 'none';
+  }
+
+  // 6. Rebuild & render the first question of the new mode
+  recomputeVisibleQuestions();
+}
+
+  // Pie Chart
+// Pie Chart
+function renderPieChart(correct, incorrect, unanswered) {
+  const { fontColor } = getChartColors();
+  document.getElementById("resultChart").style.display = "block";
+  const ctx = document.getElementById("resultChart").getContext("2d");
+  if (pieChart) pieChart.destroy();
+  pieChart = new Chart(ctx, {
+    type: "pie",
+    data: {
+      labels: ["Correct", "Incorrect", "Unanswered"],
+      datasets: [{
+        data: [correct, incorrect, unanswered],
+        backgroundColor: ["#28a745", "#dc3545", "#ffc107"]
+      }]
+    },
+    options: {
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { color: fontColor }
+        },
+        title: {
+          display: true,
+          text: "Quiz Results",
+          color: fontColor
+        }
+      }
+    }
+  });
+}
+
+// Bar Chart (time per category)
+function renderBarChart() {
+  const { fontColor, gridColor } = getChartColors();
+  document.getElementById("timeChart").style.display = "block";
+  const labels = Object.keys(tagTimes);
+  const data   = labels.map(tag => Math.round(tagTimes[tag] || 0));
+  const ctx    = document.getElementById("timeChart").getContext("2d");
+  if (barChart) barChart.destroy();
+  barChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{
+        label: "Time Spent (s)",
+        data,
+        backgroundColor: "#007bff"
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      plugins: {
+        title: { display: true, text: "Time Spent by Category", color: fontColor },
+        legend: { display: false }
+      },
+      scales: {
+        x: {
+          beginAtZero: true,
+          grid: { color: gridColor },
+          ticks: { color: fontColor }
+        },
+        y: {
+          grid: { color: gridColor },
+          ticks: { color: fontColor }
+        }
+      }
+    }
+  });
+}
+
+// Line Chart (time per question)
+function renderLineChart() {
+  const { fontColor, gridColor } = getChartColors();
+  document.getElementById("lineChart").style.display = "block";
+  const labels = visibleQuestions.map(q => `Q${q.id} (${q.tag})`);
+  const data   = visibleQuestions.map(q => Math.round(timeStamps[q.id]?.duration || 0));
+  const ctx    = document.getElementById("lineChart").getContext("2d");
+  if (lineChart) lineChart.destroy();
+  lineChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [{
+        label: "Time per Question (s)",
+        data,
+        fill: false,
+        borderColor: "#17a2b8",
+        tension: 0.3,
+        pointBackgroundColor: "#17a2b8"
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        title:  { display: true, text: "Time Taken Per Question", color: fontColor },
+        legend: { display: false }
+      },
+      scales: {
+        x: {
+          title: { display: true, text: "Questions", color: fontColor },
+          ticks: { color: fontColor },
+          grid: { color: gridColor }
+        },
+        y: {
+          beginAtZero: true,
+          title: { display: true, text: "Time (s)", color: fontColor },
+          ticks: { color: fontColor },
+          grid: { color: gridColor }
+        }
+      }
+    }
+  });
+}
+
+  // Kick off
+  loadQuestions();
+
+let mapPage = 1;
+const pageSize = 30;
+
+document.getElementById('openMapBtn').onclick = showMap;
+
+function showMap() {
+  mapPage = 1;
+  renderMap();
+  document.getElementById('mapModal').style.display = 'flex';
+}
+
+function toggleReviewMark(id) {
+  reviewMarks[id] = !reviewMarks[id];
+  localStorage.setItem(`reviewMarks_${year}`, JSON.stringify(reviewMarks));
+}
+
+function hideMap() {
+  document.getElementById('mapModal').style.display = 'none';
+}
+function renderMap() {
+  const total = visibleQuestions.length;
+  const totalPages = Math.ceil(total / pageSize);
+  document.getElementById('mapTotalPages').innerText = totalPages;
+  document.getElementById('mapPageNum').innerText = mapPage;
+
+  const start = (mapPage - 1) * pageSize;
+  const slice = visibleQuestions.slice(start, start + pageSize);
+
+  const grid = document.getElementById('mapGrid');
+  grid.innerHTML = '';
+
+  slice.forEach((q, idx) => {
+    const tile = document.createElement('div');
+    tile.classList.add('tile');
+    tile.innerText = q.id;
+
+    const userAns = selectedAnswers[q.id];
+    const correctAns = q.answer;
+
+    // Color Logic
+    if (reviewMarks[q.id]) {
+      tile.classList.add('marked');
+    } else if (!userAns) {
+      tile.classList.add('unanswered');
+    } else if (currentMode === 'eval' && userAns !== correctAns) {
+      tile.classList.add('incorrect');
+    } else {
+      tile.classList.add('answered');
+    }
+
+    // Tooltip
+    tile.title = `Q${q.id} – ${
+      reviewMarks[q.id] ? 'Marked for Review' :
+      !userAns ? 'Unanswered' :
+      currentMode === 'eval' && userAns !== correctAns ? 'Incorrect' : 'Answered'
+    }`;
+
+    // Click-to-jump
+    tile.onclick = () => {
+      currentQuestionIndex = visibleQuestions.findIndex(x => x.id === q.id);
+      renderQuestion();
+      hideMap();
+    };
+
+    grid.appendChild(tile);
+  });
+}
+
+function nextMapPage() {
+  const totalPages = Math.ceil(visibleQuestions.length / pageSize);
+  if (mapPage < totalPages) { mapPage++; renderMap(); }
+}
+function prevMapPage() {
+  if (mapPage > 1) { mapPage--; renderMap(); }
+}
+
+
+
+
+
+</script>
+
+</body>
+</html>
