@@ -21,6 +21,10 @@
    --close-color: #333;
    --mode-bg: #eef4fb;
   --mode-text: #0056b3;
+    /* Progress bar colors for Light Mode */
+   --progress-bg:   #e0f7f1;
+  --progress-fill: #00b894;   /* strong teal */
+  --progress-text: #00695c;
   }
 
   /* Base page styling */
@@ -44,7 +48,36 @@
     --close-color: #e8e6e3;
     --mode-bg: #2e2e2e;
   --mode-text: #88c0d0;
+  /* Progress bar colors for Dark Mode */
+ --progress-bg:   #1f2e2e;
+  --progress-fill: #55efc4;   /* neon mint */
+  --progress-text: #dfe6e9;
   }
+/* Apply to your container and fill */
+#progressBar {
+  background: var(--progress-bg);
+}
+
+#progressFill {
+  background: var(--progress-fill) !important;
+}
+
+#progressText {
+  color: var(--progress-text) !important;
+}
+
+/* Optional: add a subtle border/ring around the bar */
+#progressBar {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+/* On very small screens, shrink its height a bit */
+@media (max-width: 400px) {
+  #progressBar {
+    height: 6px;
+  }
+}
 
   /* Container & typography */
   .app-container {
@@ -115,13 +148,77 @@
 </div>
 
 
-  <div id="questionContainer" class="question-box"></div>
+<!-- Progress Indicator -->
+<div id="progressContainer" style="margin-bottom:16px;">
+  <div id="progressBar" style="
+    width: 100%;
+    background: #e9ecef;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 8px;
+  ">
+    <div id="progressFill" style="
+      width: 0%;
+      height: 100%;
+      background: #007bff;
+      transition: width 0.3s ease;
+    "></div>
+  </div>
+  <div style="text-align:right; font-size:0.85em; color:var(--text-color); margin-top:4px;">
+    <span id="progressText">0 / 0</span>
+  </div>
+</div>
 
-  <div class="navigation">
+<div id="questionContainer" class="question-box"></div>
+
+<div class="navigation">
     <button onclick="prevQuestion()">⟵ Previous</button>
     <button onclick="nextQuestion()">Next ⟶</button>
     <button onclick="submitQuiz()" id="submitBtn">✅ Finish Test</button>
   </div>
+
+    
+<div id="reviewActions" style="margin: 30px 0; text-align: center; display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+  <button id="openMapBtn" class="review-map-btn">🔍 Review Map</button>
+  <button id="retryIncorrectBtn" style="display: none;" onclick="retryIncorrectOnly()">
+    🔁 Retry Incorrect Only
+  </button>
+  <!-- Review All Responses -->
+<div style="text-align: center; margin: 30px 0;">
+  <button id="reviewAllBtn" 
+          style="display: none; padding: 10px 16px; background: #17a2b8; color: white; border: none; border-radius: 6px; cursor: pointer;" 
+          onclick="toggleReviewAll()">
+    📋 Review All Responses
+  </button>
+</div>
+
+</div>
+
+
+<!-- 📋 Review All Responses Table (hidden by default) -->
+<div id="reviewAllContainer" style="display: none; margin: 40px auto; max-width: 800px;">
+  <h3 style="text-align:center;">📋 Review All Responses</h3>
+  <button
+    onclick="toggleReviewAll()"
+    style="float: right; margin-bottom: 10px; background:#dc3545; color:white; border:none; padding:6px 12px; border-radius:5px;"
+  >
+    ✖ Close
+  </button>
+  <table id="reviewAllTable" style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr style="background: #007bff; color: white;">
+        <th style="padding: 10px;">Q#</th>
+        <th>Question</th>
+        <th>Your Answer</th>
+        <th>Correct Answer</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+
 
   <div class="summary">
     <div style="display: flex; flex-direction: column; gap: 30px; align-items: center;">
@@ -139,8 +236,23 @@
     </div>
   </div>
 
-  <!-- Under your charts -->
-<button id="openMapBtn" class="review-map-btn">🔍 Review Map</button>
+<!-- Category Strength Chart -->
+<div id="categoryChartContainer" style="width:100%; max-width:600px; margin: 40px auto; text-align:center; display: none;">
+  <h3 style="color: var(--text-color);">📊 Accuracy by Category</h3>
+  <canvas id="categoryChart"></canvas>
+</div>
+
+
+<!-- Suggestions Summary -->
+<div id="suggestionSummary" style="
+     display: none;
+     max-width:600px; margin:20px auto;
+     padding:16px; border-radius:8px;
+     background-color: var(--filter-bg);
+     color: var(--text-color);
+     font-size:0.95em;
+"></div>
+
 
 <!-- Modal -->
 <div id="mapModal" class="modal" style="display:none;">
@@ -196,6 +308,7 @@
 
 
 
+
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
@@ -228,6 +341,14 @@
     panel.style.display = isVis ? "none" : "block";
     btn.textContent     = isVis ? "Show Filters ⬇️" : "Hide Filters ⬆️";
   }
+
+  let incorrectQuestions = []; // will hold IDs after submission
+  let categoryChart = null;
+
+  let expandedTd = null;
+  let reviewSnapshot = {};
+
+
 
   // Fisher–Yates shuffle
   function shuffle(arr) {
@@ -397,6 +518,7 @@ function renderQuestion() {
       }
     });
   }
+    updateProgress();
 }
 
   // Save answer selection
@@ -427,55 +549,116 @@ function renderQuestion() {
 
   // On Finish Test
 function submitQuiz() {
+
+  // 🆕 Start by wiping the old review and expanded state
+  reviewSnapshot = {};
+  expandedTd     = null;
+
   stopTimerForQuestion(visibleQuestions[currentQuestionIndex]?.id);
-  let correct=0, incorrect=0, unattempted=0;
+
+  let correct = 0, incorrect = 0, unattempted = 0;
+  incorrectQuestions = [];
+
   visibleQuestions.forEach(q => {
     const sel = selectedAnswers[q.id];
-    if (!sel) unattempted++;
-    else if (sel===q.answer) correct++;
-    else incorrect++;
+    if (!sel) {
+      unattempted++;
+    } else if (sel === q.answer) {
+      correct++;
+    } else {
+      incorrect++;
+      incorrectQuestions.push(q.id);
+    }
   });
 
-  // Draw all charts (which now cleanly destroy + recreate)
   renderPieChart(correct, incorrect, unattempted);
   renderBarChart();
   renderLineChart();
 
-  // Show accuracy
-  const total = correct+incorrect;
-  const acc  = total>0 ? ((correct/total)*100).toFixed(1) : "0.0";
-  const e    = document.getElementById("accuracyText");
+  renderCategoryChart();
+
+
+  const total = correct + incorrect;
+  const acc = total > 0 ? ((correct / total) * 100).toFixed(1) : "0.0";
+  const e = document.getElementById("accuracyText");
   e.innerText = `🎯 Accuracy: ${acc}%`;
   e.style.display = "block";
 
-  // Only now clear answers
+// Show the Review All button once quiz is submitted
+document.getElementById('reviewAllContainer').style.display = 'none';
+document.getElementById('reviewAllBtn').style.display = 'inline-block';
+
+
+// Show buttons
+  document.getElementById('retryIncorrectBtn').style.display =
+    incorrectQuestions.length ? 'inline-block' : 'none';
+ // ⚡ Show & reset Review‑All button
+const reviewBtn = document.getElementById("reviewAllBtn");
+reviewBtn.style.display = "inline-block";
+reviewBtn.innerText    = "📋 Review All Responses";
+
+// Hide the table container (in case it was open)
+document.getElementById("reviewAllContainer").style.display = "none";
+
+      // 1️⃣ Snapshot current answers for review
+    reviewSnapshot = { ...selectedAnswers };
+
+  // Clear answers (after charts)
   localStorage.removeItem(`answers_${year}`);
   selectedAnswers = {};
+
+  
+
 }
 
 function switchMode(mode) {
   if (currentMode === mode) return;
 
+  // 🔄 Reset review snapshot & any expanded cell
+  reviewSnapshot = {};
+  expandedTd = null;
+
   // 1. Update mode & reset position
   currentMode = mode;
   currentQuestionIndex = 0;
 
-    document.getElementById("accuracyText").style.display = "none";
+  // 2. Hide all result sections & summary areas
+  [
+    "resultChart",
+    "timeChart",
+    "lineChart",
+    "categoryChart",      // hide category accuracy chart
+    "accuracyText",
+    "reviewContainer"
+  ].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.style.display = "none";
+  });
 
-  // 2. Clear all stored answers & marks
+  // Also hide the suggestion summary and retry button
+  const summary = document.getElementById("suggestionSummary");
+  if (summary) summary.style.display = "none";
+
+  const retryBtn = document.getElementById("retryIncorrectBtn");
+  if (retryBtn) retryBtn.style.display = "none";
+
+  document.getElementById("categoryChartContainer").style.display = "none";
+
+// Hide & reset the Review‑All UI
+  const reviewBtn = document.getElementById("reviewAllBtn");
+  const reviewContainer = document.getElementById("reviewAllContainer");
+  reviewBtn.style.display    = "none";
+  reviewBtn.innerText         = "📋 Review All Responses";
+  reviewContainer.style.display = "none";
+
+
+  // 3. Clear all stored answers & review marks
   localStorage.removeItem(`answers_${year}`);
   localStorage.removeItem(`reviewMarks_${year}`);
   selectedAnswers = {};
   reviewMarks = {};
 
-  // 3. Hide all result sections
-  ["resultChart","timeChart","lineChart","accuracyText","reviewContainer"]
-  .forEach(id => {
-    const el = document.getElementById(id);
-    if (el) el.style.display = "none";
-});
-
-  // 4. Update Finish button & mode note
+  // 4. Update Finish button label & mode explanation
   document.getElementById('submitBtn').innerText =
     mode === 'quiz' ? '✅ Finish Test' : '📊 Finish Evaluation';
   document.getElementById('modeNote').innerText =
@@ -491,7 +674,7 @@ function switchMode(mode) {
     evalLegend.style.display = mode === 'eval' ? 'block' : 'none';
   }
 
-  // 6. Rebuild & render the first question of the new mode
+  // 6. Rebuild & render the first question for the new mode
   recomputeVisibleQuestions();
 }
 
@@ -610,6 +793,247 @@ function renderLineChart() {
   });
 }
 
+
+function renderCategoryChart() {
+
+  // 1. Tally per‑tag correct vs attempted & total time
+  const tally = {};
+  visibleQuestions.forEach(q => {
+    const tag = q.tag;
+    if (!tally[tag]) tally[tag] = { correct: 0, attempted: 0, totalTime: 0 };
+    const sel = selectedAnswers[q.id];
+    if (sel) {
+      tally[tag].attempted++;
+      if (sel === q.answer) tally[tag].correct++;
+      tally[tag].totalTime += (timeStamps[q.id]?.duration || 0);
+    }
+  });
+
+  // 2. Build arrays *only for tags with at least one attempt*
+  const tags    = [];
+  const accs    = [];
+  const avgTime = [];
+  for (const [tag, data] of Object.entries(tally)) {
+    if (data.attempted > 0) {
+      tags.push(tag);
+      // store as numbers, not strings
+      accs.push(data.correct / data.attempted * 100);
+      avgTime.push(data.totalTime / data.attempted);
+    }
+  }
+
+   // Show or hide the category chart canvas and suggestion summary
+  document.getElementById("categoryChartContainer").style.display = tags.length ? "block" : "none";
+  document.getElementById("suggestionSummary").style.display =
+    tags.length ? "block" : "none";
+
+  // 3. Render the bar chart
+  const { fontColor, gridColor } = getChartColors();
+  const ctx = document.getElementById("categoryChart").getContext("2d");
+  if (categoryChart) categoryChart.destroy();
+  document.getElementById("categoryChart").style.display = tags.length ? "block" : "none";
+  categoryChart = new Chart(ctx, {
+    type: 'bar',
+    data: { labels: tags, datasets: [{ label: '% Accuracy', data: accs, backgroundColor: '#17a2b8' }] },
+    options: {
+      plugins: {
+        title: { display: true, text: "Accuracy by Category", color: fontColor },
+        legend: { display: false }
+      },
+      scales: {
+        x: { ticks: { color: fontColor }, grid: { color: gridColor } },
+        y: {
+          beginAtZero: true, max: 100,
+          ticks: { color: fontColor, callback: v => v + '%' },
+          grid: { color: gridColor }
+        }
+      }
+    }
+  });
+
+  // 4. Generate user suggestions
+  generateSuggestions(tags, accs, avgTime);
+}
+
+function generateSuggestions(tags, accs, avgTime) {
+  if (!tags.length) {
+    document.getElementById("suggestionSummary").innerHTML =
+      "<p>No attempted questions to analyze.</p>";
+    return;
+  }
+
+  // Find max/min accuracies
+  const maxAcc = Math.max(...accs);
+  const minAcc = Math.min(...accs);
+
+  // Best and weakest topics
+  const bestTags   = tags.filter((_,i) => accs[i] === maxAcc);
+  const weakestTag = tags[accs.indexOf(minAcc)];
+
+  // Slowest by avgTime
+  const maxTime   = Math.max(...avgTime);
+  const slowestTag = tags[avgTime.indexOf(maxTime)];
+
+  // Overall accuracy
+  let totalCorrect = 0, totalAttempted = 0;
+  visibleQuestions.forEach(q => {
+    const sel = selectedAnswers[q.id];
+    if (sel) {
+      totalAttempted++;
+      if (sel === q.answer) totalCorrect++;
+    }
+  });
+  const overallAcc = totalAttempted
+    ? (totalCorrect / totalAttempted * 100).toFixed(1)
+    : "0.0";
+
+  // Build summary
+  const lines = [];
+  lines.push(
+    `✅ You did best in ${bestTags.join(', ')} with ${maxAcc.toFixed(1)}% accuracy.`
+  );
+  if (bestTags.length > 1) {
+    lines.push(`(Tie between: ${bestTags.join(', ')})`);
+  }
+  lines.push(
+    `⚠️ Your weakest topic is ${weakestTag} at ${minAcc.toFixed(1)}% accuracy.`
+  );
+  lines.push(
+    `⏱️ You took the longest per question in ${slowestTag} (avg ${Math.round(maxTime)}s).`
+  );
+  lines.push(`🎯 Overall accuracy: ${overallAcc}%.`);
+  lines.push(
+    `💡 Focus on improving in <strong>${weakestTag}</strong> and speed drills for <strong>${slowestTag}</strong>.`
+  );
+
+  document.getElementById("suggestionSummary").innerHTML =
+    lines.map(l => `<p>${l}</p>`).join('');
+}
+
+function retryIncorrectOnly() {
+  if (!incorrectQuestions.length) return;
+
+  // Reset everything for a new quiz
+  currentMode = 'quiz';
+  currentQuestionIndex = 0;
+  selectedAnswers = {};
+  reviewMarks = {};
+  timeStamps = {};
+  tagTimes = {};
+
+  // Filter questions to only those marked incorrect
+  visibleQuestions = questions.filter(q => incorrectQuestions.includes(q.id));
+  incorrectQuestions = []; // reset this too
+
+  // Hide charts and retry button
+  document.getElementById("resultChart").style.display = "none";
+  document.getElementById("timeChart").style.display = "none";
+  document.getElementById("lineChart").style.display = "none";
+  document.getElementById("accuracyText").style.display = "none";
+  document.getElementById("retryIncorrectBtn").style.display = "none";
+
+  // Update mode text
+  document.getElementById('modeNote').innerText =
+    'Retry Mode: Reattempt your incorrect questions.';
+  document.getElementById('submitBtn').innerText = '✅ Finish Retry';
+
+  // Show appropriate legend
+  const quizLegend = document.getElementById("legendQuiz");
+  const evalLegend = document.getElementById("legendEval");
+  if (quizLegend && evalLegend) {
+    quizLegend.style.display = 'block';
+    evalLegend.style.display = 'none';
+  }
+
+  // Show them the first question again
+  renderQuestion();
+}
+
+function toggleReviewAll() {
+  const container = document.getElementById('reviewAllContainer');
+  if (container.style.display === 'none') {
+    renderReviewAll();     // build rows
+    container.style.display = 'block';
+    document.getElementById('reviewAllBtn').innerText = '❌ Hide Responses';
+  } else {
+    container.style.display = 'none';
+    document.getElementById('reviewAllBtn').innerText = '📋 Review All Responses';
+  }
+}
+
+function renderReviewAll() {
+  const tbody = document.querySelector("#reviewAllTable tbody");
+  tbody.innerHTML = "";
+
+  visibleQuestions.forEach((q, idx) => {
+    // ✅ Pull from the snapshot, not live selectedAnswers
+    const yourAnswer = reviewSnapshot[q.id];
+    const isUnattempted = yourAnswer === undefined;
+    const isCorrect = yourAnswer === q.answer;
+
+    const row = document.createElement("tr");
+    if (idx % 2 === 1) row.style.background = "rgba(0,0,0,0.03)";
+
+    // Q# cell
+    const qNoTd = document.createElement("td");
+    qNoTd.style.padding = "8px";
+    qNoTd.textContent = q.id;
+
+    // Question cell (truncated/expandable)
+    const questionTd = document.createElement("td");
+    questionTd.style.padding = "8px";
+    questionTd.className = "review-question-cell";
+    questionTd.textContent = q.question;
+
+    // Your answer cell
+    const yourTd = document.createElement("td");
+    yourTd.style.padding = "8px";
+    yourTd.style.textAlign = "center";
+    yourTd.innerHTML = isUnattempted ? "<em>Unattempted</em>" : yourAnswer;
+
+    // Correct answer cell
+    const corrTd = document.createElement("td");
+    corrTd.style.padding = "8px";
+    corrTd.style.textAlign = "center";
+    corrTd.textContent = q.answer;
+
+    // Result cell
+    const statusTd = document.createElement("td");
+    statusTd.style.padding = "8px";
+    statusTd.style.textAlign = "center";
+    statusTd.textContent = isUnattempted ? "⏺" : (isCorrect ? "✅" : "❌");
+
+    // Build the row
+    row.append(qNoTd, questionTd, yourTd, corrTd, statusTd);
+    tbody.appendChild(row);
+
+    // Click to toggle truncated/expanded question
+    questionTd.onclick = () => {
+      if (expandedTd === questionTd) {
+        questionTd.classList.remove("expanded");
+        expandedTd = null;
+      } else {
+        if (expandedTd) expandedTd.classList.remove("expanded");
+        questionTd.classList.add("expanded");
+        expandedTd = questionTd;
+      }
+    };
+  });
+}
+
+function toggleReviewAll() {
+  const container = document.getElementById("reviewAllContainer");
+  if (container.style.display === "none") {
+    renderReviewAll();     // build the rows
+    container.style.display = "block";
+    document.getElementById('reviewAllBtn').innerText = '❌ Hide Responses';
+  } else {
+    container.style.display = "none";
+    document.getElementById('reviewAllBtn').innerText = '📋 Review All Responses';
+  }
+}
+
+
   // Kick off
   loadQuestions();
 
@@ -617,6 +1041,14 @@ let mapPage = 1;
 const pageSize = 30;
 
 document.getElementById('openMapBtn').onclick = showMap;
+
+function updateProgress() {
+  const total = visibleQuestions.length;
+  const current = currentQuestionIndex + 1;
+  const percent = total ? Math.round((current / total) * 100) : 0;
+  document.getElementById('progressFill').style.width = percent + '%';
+  document.getElementById('progressText').innerText = `${current} / ${total}`;
+}
 
 function showMap() {
   mapPage = 1;

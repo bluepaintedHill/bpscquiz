@@ -205,3 +205,97 @@ canvas {
   margin-right: 6px;
   border-radius: 3px;
 }
+
+/*retry questions */
+#retryIncorrectBtn {
+  background-color: #ffc107;
+  color: #212529;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#retryIncorrectBtn:hover {
+  background-color: #e0a800;
+}
+/*review div*/
+.review-map-btn,
+#retryIncorrectBtn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.review-map-btn {
+  background-color: #343a40;
+  color: #fff;
+}
+.review-map-btn:hover {
+  background-color: #495057;
+}
+
+#retryIncorrectBtn {
+  background-color: #ffc107;
+  color: #212529;
+}
+#retryIncorrectBtn:hover {
+  background-color: #e0a800;
+}
+
+@media (max-width: 600px) {
+  .question-box {
+    padding: 16px;
+  }
+  .options label {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .navigation button {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+  }
+  #progressText {
+    font-size: 0.75em !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .navigation {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .navigation button {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+/*review all */
+#reviewAllContainer table th,
+#reviewAllContainer table td {
+  font-family: 'Segoe UI', sans-serif;
+}
+#reviewAllContainer table tr:nth-child(even) {
+  background-color: rgba(0,0,0,0.03);
+}
+
+/* Truncate long question text, with fade */
+.review-question-cell {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+.review-question-cell.expanded {
+  max-width: none;
+  white-space: normal;
+  opacity: 1;
+}
