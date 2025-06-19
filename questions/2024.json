@@ -4,1054 +4,1207 @@
     "question": "Dalton's atomic theory successfully explained i. Law of conservation of mass. ii. Law of constant composition. iii. Law of radioactivity. iv. Law of multiple proportions.",
     "options": ["ii, iii and iv", "i, ii and iii", "i, ii and iv", "i, iii and iv"],
     "answer": "C",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Medium"
   },
   {
     "id": 2,
     "question": "Which of the following is a technopolis?",
     "options": ["Silicon Valley", "London", "Paris", "Moscow"],
-    "answer": "B",
-    "tag": "Geography"
+    "answer": "A",
+    "tag": "Geography",
+    "difficulty": "Easy"
   },
   {
     "id": 3,
     "question": "Which Amendment abolished the two reserved seats for Anglo‑Indian community?",
     "options": ["108th", "100th", "102nd", "104th"],
     "answer": "D",
-    "tag": "Polity"
+    "tag": "Polity",
+    "difficulty": "Medium"
   },
   {
     "id": 4,
     "question": "Which port is not on India’s west coast?",
     "options": ["Kandla", "Mumbai", "Paradip", "Marmagao"],
     "answer": "C",
-    "tag": "Geography"
+    "tag": "Geography",
+    "difficulty": "Easy"
   },
   {
     "id": 5,
     "question": "Who ruled Thanesar in the 7th century A.D.?",
     "options": ["Pulakesin II", "Harshavardhana", "Rajendra Chola", "Bimbisara"],
     "answer": "B",
-    "tag": "Ancient History"
+    "tag": "Ancient History",
+    "difficulty": "Medium"
   },
   {
     "id": 6,
     "question": "What is the portable unit of computation used in classical computer science named after?",
     "options": ["Alan Turing", "Charles Babbage", "John von Neumann", "Ada Lovelace"],
     "answer": "C",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Medium"
   },
   {
     "id": 7,
     "question": "Which of the following economic measures was announced in the last Union Budget?",
     "options": ["Increased health spending", "New education scheme", "Tax rebate for startups", "All of the above"],
     "answer": "D",
-    "tag": "Economics"
+    "tag": "Economics",
+    "difficulty": "Easy"
   },
   {
     "id": 8,
     "question": "What is the unit of relative density used in the context of air?",
     "options": ["kg/m³", "ppm", "g/cm³", "None of the above"],
     "answer": "B",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Medium"
   },
   {
     "id": 9,
     "question": "Which constitutional body recently recommended reservation for women in local bodies?",
     "options": ["Law Commission", "Election Commission", "Finance Commission", "National Commission for Women"],
     "answer": "C",
-    "tag": "Polity"
+    "tag": "Polity",
+    "difficulty": "Medium"
   },
   {
     "id": 10,
     "question": "Which fertilizer bag color is used to identify urea?",
     "options": ["White", "Yellow", "Blue", "Pink"],
     "answer": "A",
-    "tag": "Economics"
+    "tag": "Economics",
+    "difficulty": "Easy"
   },
   {
     "id": 11,
     "question": "Which hormone regulates glucose uptake by cells?",
     "options": ["Insulin", "Glucagon", "Thyroxine", "Adrenaline"],
     "answer": "A",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Easy"
   },
   {
     "id": 12,
     "question": "Who composed India’s National Anthem?",
     "options": ["Rabindranath Tagore", "Bankim Chandra Chatterjee", "Kavi Pradeep", "Allama Iqbal"],
     "answer": "A",
-    "tag": "Modern History"
+    "tag": "Modern History",
+    "difficulty": "Easy"
   },
   {
     "id": 13,
     "question": "Which river flows through Patna?",
     "options": ["Ganges", "Yamuna", "Godavari", "Narmada"],
     "answer": "A",
-    "tag": "Geography"
+    "tag": "Geography",
+    "difficulty": "Easy"
   },
   {
     "id": 14,
     "question": "The Right to Information Act came into force in which year?",
     "options": ["2002", "2005", "2008", "2010"],
     "answer": "B",
-    "tag": "Polity"
+    "tag": "Polity",
+    "difficulty": "Easy"
   },
   {
     "id": 15,
-    "question": "Which organ is primarily responsible for detoxification?", 
+    "question": "Which organ is primarily responsible for detoxification?",
     "options": ["Kidney", "Liver", "Heart", "Lungs"],
     "answer": "B",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Easy"
   },
   {
     "id": 16,
     "question": "Which amendment introduced the Goods and Services Tax (GST)?",
     "options": ["100th", "101st", "102nd", "103rd"],
-    "answer": "C",
-    "tag": "Economics"
+    "answer": "B",
+    "tag": "Economics",
+    "difficulty": "Medium"
   },
   {
     "id": 17,
     "question": "Which metal is recovered using the process of electrolysis?",
     "options": ["Zinc", "Sodium", "Lithium", "Copper"],
     "answer": "B",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Medium"
   },
   {
     "id": 18,
-    "question": "Which Asian country recently changed its name to…”?", 
+    "question": "Which Asian country recently changed its name to…”?",
     "options": ["Eswatini", "Myanmar", "Czechia", "All of the above"],
     "answer": "A",
-    "tag": "Current Affairs"
+    "tag": "Current Affairs",
+    "difficulty": "Hard"
   },
   {
     "id": 19,
     "question": "What type of scale is used in measuring earthquakes?",
     "options": ["Richter scale", "Beaufort scale", "Fujita scale", "Mohs scale"],
     "answer": "A",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Easy"
   },
   {
     "id": 20,
     "question": "Which plan focused primarily on agricultural development in Bihar?",
     "options": ["First Five Year Plan", "Second Five Year Plan", "Third Five Year Plan", "Fourth Five Year Plan"],
     "answer": "A",
-    "tag": "Bihar Special History"
-  }
-  ,
+    "tag": "Bihar Special History",
+    "difficulty": "Medium"
+  },
   {
     "id": 21,
     "question": "Name the constituency from where the new Chief Minister of Odisha, Mohan Charan Majhi, was elected in the recent State Assembly elections.",
     "options": ["Laikera", "Keonjhar", "Telkoi", "Hinjili"],
     "answer": "A",
-    "tag": "Current Affairs"
+    "tag": "Current Affairs",
+    "difficulty": "Medium"
   },
   {
     "id": 22,
     "question": "According to a CRISIL Rating report, how much is the corporate bond market expected to grow by FY 2030 in India?",
     "options": ["100–120 lakh crore", "150–170 lakh crore", "90–110 lakh crore", "70–90 lakh crore"],
     "answer": "A",
-    "tag": "Economics"
+    "tag": "Economics",
+    "difficulty": "Hard"
   },
   {
     "id": 23,
     "question": "Which component of fertilizer is used for stimulating early growth purpose?",
     "options": ["Potassium", "Nitrogen", "Oxygen", "Phosphorus"],
     "answer": "B",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Easy"
   },
   {
     "id": 24,
     "question": "According to RBI, what was the forecast for headline inflation in FY 2025?",
     "options": ["5.0%", "4.1%", "6.0%", "3.5%"],
     "answer": "B",
-    "tag": "Economics"
+    "tag": "Economics",
+    "difficulty": "Medium"
   },
   {
     "id": 25,
     "question": "Who is the author of the autobiography 'I Have the Streets: A Kutti Cricket'?",
     "options": ["S. Sreesanth", "Suresh Raina", "Rahul Dravid", "R. Ashwin and S. Monga"],
     "answer": "D",
-    "tag": "Current Affairs"
+    "tag": "Current Affairs",
+    "difficulty": "Medium"
   },
   {
     "id": 26,
     "question": "Where was the 13th Ministerial Conference of the WTO held in February 2024?",
     "options": ["Geneva", "Rome", "Cancun", "Doha"],
     "answer": "D",
-    "tag": "Current Affairs"
+    "tag": "Current Affairs",
+    "difficulty": "Medium"
   },
   {
     "id": 27,
     "question": "Who gave the slogan 'DO OR DIE' and when?",
-    "options": ["Subhash Chandra Bose during Quit India Movement","Jawaharlal Nehru during Non-cooperation Movement","Gandhiji during Quit India Movement","Bhagat Singh during Civil Disobedience"],
-    "answer": "A",
-    "tag": "Modern History"
+    "options": ["Subhash Chandra Bose during Quit India Movement", "Jawaharlal Nehru during Non-cooperation Movement", "Gandhiji during Quit India Movement", "Bhagat Singh during Civil Disobedience"],
+    "answer": "C",
+    "tag": "Modern History",
+    "difficulty": "Easy"
   },
   {
     "id": 28,
     "question": "The first Hindi daily newspaper to be published in Bihar was?",
-    "options": ["Kshatriya Samachar","Udyoga","Sarwa Hitaishi","Chaitanya Chandrika"],
+    "options": ["Kshatriya Samachar", "Udyoga", "Sarwa Hitaishi", "Chaitanya Chandrika"],
     "answer": "C",
-    "tag": "Bihar Special History"
+    "tag": "Bihar Special History",
+    "difficulty": "Medium"
   },
   {
     "id": 29,
     "question": "Which of the following has a highly elongated elliptical orbit?",
-    "options": ["Asteroid","Comet","Meteorite","Meteor"],
+    "options": ["Asteroid", "Comet", "Meteorite", "Meteor"],
     "answer": "B",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Medium"
   },
   {
     "id": 30,
     "question": "Which non-contact force is?",
-    "options": ["Magnetic force","Frictional force","Impact force","None of these"],
+    "options": ["Magnetic force", "Frictional force", "Impact force", "None of these"],
     "answer": "A",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Easy"
   },
   {
     "id": 31,
     "question": "Motorcycle is related to battery in the same way as life is related to ____?",
-    "options": ["Moon","Earth","Star","Sun"],
+    "options": ["Moon", "Earth", "Star", "Sun"],
     "answer": "D",
-    "tag": "Aptitude"
+    "tag": "Aptitude",
+    "difficulty": "Easy"
   },
   {
     "id": 32,
     "question": "Which of these metals is recovered using electrolysis?",
-    "options": ["Zinc","Sodium","Lithium","Copper"],
+    "options": ["Zinc", "Sodium", "Lithium", "Copper"],
     "answer": "B",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Medium"
   },
   {
     "id": 33,
     "question": "Which acid is secreted in the stomach?",
-    "options": ["Sulphuric acid","Nitric acid","Phosphoric acid","Hydrochloric acid"],
+    "options": ["Sulphuric acid", "Nitric acid", "Phosphoric acid", "Hydrochloric acid"],
     "answer": "D",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Easy"
   },
   {
     "id": 34,
     "question": "Which ruler ruled Assam in the time of Harsha?",
-    "options": ["Aswad Jahan","Bhaskar Varman","King Dahir","More than one of the above"],
+    "options": ["Aswad Jahan", "Bhaskar Varman", "King Dahir", "More than one of the above"],
     "answer": "B",
-    "tag": "Ancient History"
+    "tag": "Ancient History",
+    "difficulty": "Medium"
   },
   {
     "id": 35,
     "question": "What type of scale measures the strength of earthquakes?",
-    "options": ["Richter scale","Beaufort scale","Fujita scale","Mohs scale"],
+    "options": ["Richter scale", "Beaufort scale", "Fujita scale", "Mohs scale"],
     "answer": "A",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Easy"
   },
   {
     "id": 36,
     "question": "Heat transfer that does not require a medium is called:",
-    "options": ["Radiation","Reflection","Conduction","Convection"],
+    "options": ["Radiation", "Reflection", "Conduction", "Convection"],
     "answer": "A",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Easy"
   },
   {
     "id": 37,
     "question": "Which type of rock is formed from cooling and solidification of lava?",
-    "options": ["Igneous","Sedimentary","Crystal","Metamorphic"],
+    "options": ["Igneous", "Sedimentary", "Crystal", "Metamorphic"],
     "answer": "A",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Easy"
   },
   {
     "id": 38,
     "question": "Which Asian country recently changed its name to Eswatini?",
-    "options": ["Eswatini","Myanmar","Czechia","All of the above"],
+    "options": ["Eswatini", "Myanmar", "Czechia", "All of the above"],
     "answer": "A",
-    "tag": "Current Affairs"
+    "tag": "Current Affairs",
+    "difficulty": "Medium"
   },
   {
     "id": 39,
     "question": "Match the following in context of Ashta Pradhan system of Maratha rulers: a. Sachiva – Prime Minister; b. Peshwa – In charge of correspondence; c. Samant – Finance Minister; d. Amatya – Foreign Minister.",
-    "options": ["a-2 b-1 c-4 d-3","a-1 b-2 c-3 d-4","a-3 b-4 c-1 d-2","More than one of the above"],
+    "options": ["a-2 b-1 c-4 d-3", "a-1 b-2 c-3 d-4", "a-3 b-4 c-1 d-2", "More than one of the above"],
     "answer": "A",
-    "tag": "Medieval History"
+    "tag": "Medieval History",
+    "difficulty": "Hard"
   },
   {
     "id": 40,
     "question": "In April 2024, how many members of the UN Security Council rejected or abstained from voting on Palestinian full membership?",
-    "options": ["6","2","3","5"],
+    "options": ["6", "2", "3", "5"],
     "answer": "C",
-    "tag": "Current Affairs"
-  }
-  ,
+    "tag": "Current Affairs",
+    "difficulty": "Medium"
+  },
   {
     "id": 41,
     "question": "In April 2024, how many members of the UN Security Council either rejected or abstained from voting for the proposal to allow Palestine full membership?",
     "options": ["6", "2", "3", "5"],
     "answer": "C",
-    "tag": "Current Affairs"
+    "tag": "Current Affairs",
+    "difficulty": "Medium"
   },
   {
     "id": 42,
     "question": "In the Union Budget speech for 2024-25, which oilseed was noted as not being covered under ‘Atmanirbharta’?",
     "options": ["Sesame", "Coconut", "Soybean", "Groundnut"],
     "answer": "B",
-    "tag": "Economics"
+    "tag": "Economics",
+    "difficulty": "Medium"
   },
   {
     "id": 43,
     "question": "Sheikh Ahmad Abdullah al-Ahmad al Sabah was appointed as the new Prime Minister of which country in April 2024?",
     "options": ["Palestine", "Yemen", "Lebanon", "Kuwait"],
     "answer": "D",
-    "tag": "Current Affairs"
+    "tag": "Current Affairs",
+    "difficulty": "Medium"
   },
   {
     "id": 44,
     "question": "Which ruler ruled Assam in the time of Harsha?",
     "options": ["Aswad Jahan", "Bhaskar Varman", "King Dahir", "More than one of the above"],
     "answer": "B",
-    "tag": "Ancient History"
+    "tag": "Ancient History",
+    "difficulty": "Medium"
   },
   {
     "id": 45,
     "question": "The meter used to measure the distance moved by a vehicle is known as?",
     "options": ["Ammeter", "Speedometer", "Chronometer", "Odometer"],
     "answer": "D",
-    "tag": "Science"
+    "tag": "Science",
+    "difficulty": "Easy"
   },
   {
     "id": 46,
     "question": "What is the full form of CGTMSE?",
     "options": ["Credit Guarantee Trust for Micro and Small Enterprises", "Central Goods and Services Tax on Micro‑small Enterprises", "Corporate Guarantee Trust for MSMEs", "Credit Guarantee Tariff on Micro Enterprises"],
     "answer": "A",
-    "tag": "Economics"
+    "tag": "Economics",
+    "difficulty": "Hard"
   },
   {
     "id": 47,
     "question": "Which Amendment abolished the two reserved seats for Anglo‑Indian community?",
     "options": ["108th", "100th", "102nd", "104th"],
     "answer": "D",
-    "tag": "Polity"
+    "tag": "Polity",
+    "difficulty": "Medium"
   },
   {
     "id": 48,
     "question": "What number replaces the question mark? (Quant puzzle)",
     "options": ["22", "18", "36", "20"],
     "answer": "A",
-    "tag": "Aptitude"
+    "tag": "Aptitude",
+    "difficulty": "Hard"
   },
   {
     "id": 49,
     "question": "Which of the following ports is an artificial port?",
     "options": ["Marmagao", "Mumbai", "Kochi", "Chennai"],
     "answer": "D",
-    "tag": "Geography"
+    "tag": "Geography",
+    "difficulty": "Medium"
   },
   {
     "id": 50,
     "question": "In April 2024, how many members of the UN Security Council rejected or abstained in the vote on Palestine full membership?",
     "options": ["6", "2", "3", "5"],
     "answer": "C",
-    "tag": "Current Affairs"
-  },
-  {
-    "id": 51,
-    "question": "In the Union Budget 2024-25, which oilseed was noted as not being covered under the goal of Atmanirbharta?",
-    "options": ["Sesame", "Coconut", "Soybean", "Groundnut"],
-    "answer": "B",
-    "tag": "Economics"
-  },
-  {
-    "id": 52,
-    "question": "Who gave the slogan 'DO OR DIE' and during which movement?",
-    "options": ["Subhash Chandra Bose during Quit India Movement", "Jawaharlal Nehru during Non‑cooperation", "Gandhiji during Quit India Movement", "Bhagat Singh during Civil Disobedience"],
-    "answer": "A",
-    "tag": "Modern History"
-  },
-  {
-    "id": 53,
-    "question": "The first Hindi daily newspaper to be published in Bihar was?",
-    "options": ["Kshatriya Samachar", "Udyoga", "Sarwa Hitaishi", "Chaitanya Chandrika"],
-    "answer": "C",
-    "tag": "Bihar Special History"
-  },
-  {
-    "id": 54,
-    "question": "Which of the following has a highly elongated elliptical orbit?",
-    "options": ["Asteroid", "Comet", "Meteorite", "Meteor"],
-    "answer": "B",
-    "tag": "Science"
-  },
-  {
-    "id": 55,
-    "question": "Which non‑contact force is?",
-    "options": ["Magnetic force", "Frictional force", "Impact force", "None of these"],
-    "answer": "A",
-    "tag": "Science"
-  },
-  {
-    "id": 56,
-    "question": "Motorcycle is related to battery as life is related to ____?",
-    "options": ["Moon", "Earth", "Star", "Sun"],
-    "answer": "D",
-    "tag": "Aptitude"
-  },
-  {
-    "id": 57,
-    "question": "Which metal is recovered using electrolysis?",
-    "options": ["Zinc", "Sodium", "Lithium", "Copper"],
-    "answer": "B",
-    "tag": "Science"
-  },
-  {
-    "id": 58,
-    "question": "Which acid is secreted in the stomach?",
-    "options": ["Sulphuric acid", "Nitric acid", "Phosphoric acid", "Hydrochloric acid"],
-    "answer": "D",
-    "tag": "Science"
-  },
-  {
-    "id": 59,
-    "question": "Which scale measures the strength of earthquakes?",
-    "options": ["Richter scale", "Beaufort scale", "Fujita scale", "Mohs scale"],
-    "answer": "A",
-    "tag": "Science"
-  },
-  {
-    "id": 60,
-    "question": "Heat transfer that does not require a medium is called:",
-    "options": ["Radiation", "Reflection", "Conduction", "Convection"],
-    "answer": "A",
-    "tag": "Science"
-  },
-  
-  {
-    "id": 61,
-    "question": "Which vitamin is synthesized when the skin is exposed to sunlight?",
-    "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
-    "answer": "C",
-    "tag": "Science"
-  },
-  {
-    "id": 62,
-    "question": "Which Mughal emperor built the Red Fort in Delhi?",
-    "options": ["Akbar", "Shah Jahan", "Jehangir", "Aurangzeb"],
-    "answer": "B",
-    "tag": "Medieval History"
-  },
-  {
-    "id": 63,
-    "question": "What does RBI's repo rate refer to?",
-    "options": ["Rate at which RBI lends to banks", "Rate at which banks lend to RBI", "Rate of bank deposits", "Rate of inflation"],
-    "answer": "A",
-    "tag": "Economics"
-  },
-  {
-    "id": 64,
-    "question": "Which national park is located in Bihar?",
-    "options": ["Valmiki National Park", "Kaziranga National Park", "Sundarbans National Park", "Gir National Park"],
-    "answer": "A",
-    "tag": "Bihar Special Geography"
-  },
-  {
-    "id": 65,
-    "question": "Which Amendment of Indian Constitution gave women reservation in local bodies?",
-    "options": ["73rd", "74th", "81st", "86th"],
-    "answer": "A",
-    "tag": "Polity"
-  },
-  {
-    "id": 66,
-    "question": "Which soil type is most suitable for tea cultivation?",
-    "options": ["Red soil", "Loamy soil", "Lateritic soil", "Black soil"],
-    "answer": "C",
-    "tag": "Geography"
-  },
-  {
-    "id": 67,
-    "question": "What is the chemical formula for ozone?",
-    "options": ["O₂", "O₃", "O₄", "O₅"],
-    "answer": "B",
-    "tag": "Science"
-  },
-  {
-    "id": 68,
-    "question": "Who founded the Patna School of Painting in 18th century?",
-    "options": ["Mukul Roy", "Kalu Ram", "Ashtapad", "Lakshmi Narayan"],
-    "answer": "B",
-    "tag": "Bihar Special History"
-  },
-  {
-    "id": 69,
-    "question": "The concept of 'Five year plans' in India was inherited from which country?",
-    "options": ["USA", "UK", "USSR", "China"],
-    "answer": "C",
-    "tag": "Economics"
-  },
-  {
-    "id": 70,
-    "question": "Which of these is a non-renewable source of energy?",
-    "options": ["Solar", "Wind", "Natural Gas", "Hydro"],
-    "answer": "C",
-    "tag": "Science"
-  },
-  {
-    "id": 71,
-    "question": "Who was the founder of the Maurya Empire?",
-    "options": ["Chandragupta Maurya", "Ashoka", "Bindusara", "Mahapadma Nanda"],
-    "answer": "A",
-    "tag": "Ancient History"
-  },
-  {
-    "id": 72,
-    "question": "What is the primary language spoken in Bihar?",
-    "options": ["Hindi", "Maithili", "Bhojpuri", "Magahi"],
-    "answer": "A",
-    "tag": "Bihar Special Culture"
-  },
-  {
-    "id": 73,
-    "question": "Which article of the Indian Constitution allows freedom of speech?",
-    "options": ["Article 14", "Article 19", "Article 21", "Article 22"],
-    "answer": "B",
-    "tag": "Polity"
-  },
-  {
-    "id": 74,
-    "question": "Which neighboring country is to the north of Bihar?",
-    "options": ["Nepal", "Bangladesh", "Bhutan", "Myanmar"],
-    "answer": "A",
-    "tag": "Geography"
-  },
-  {
-    "id": 75,
-    "question": "Which radioactive element was used in the Chernobyl disaster?",
-    "options": ["Uranium", "Plutonium", "Cesium", "Iodine"],
-    "answer": "A",
-    "tag": "Science"
-  },
-  {
-    "id": 76,
-    "question": "Which saint is associated with Bihar and said to have attained enlightenment in Gaya?",
-    "options": ["Guru Gobind Singh", "Mahavira", "Gautama Buddha", "Saint Kabir"],
-    "answer": "C",
-    "tag": "Bihar Special History"
-  },
-  {
-    "id": 77,
-    "question": "Which is the largest district in Bihar by area?",
-    "options": ["Gaya", "Patna", "Purnia", "Muzaffarpur"],
-    "answer": "C",
-    "tag": "Bihar Special Geography"
-  },
-  {
-    "id": 78,
-    "question": "Which vitamin deficiency causes scurvy?",
-    "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
-    "answer": "C",
-    "tag": "Science"
-  },
-  {
-    "id": 79,
-    "question": "Which plan aimed to double farmers' income by 2022?",
-    "options": ["National Food Security Mission", "Pradhan Mantri Fasal Bima Yojana", "Doubling Farmers' Income", "Soil Health Card Scheme"],
-    "answer": "C",
-    "tag": "Economics"
-  },
-  {
-    "id": 80,
-    "question": "Which empire's capital was at Pataliputra?",
-    "options": ["Maurya", "Gupta", "Magadha", "Mughal"],
-    "answer": "A",
-    "tag": "Ancient History"
-  },
-  {
-    "id": 81,
-    "question": "Which vitamin deficiency causes night blindness?",
-    "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
-    "answer": "A",
-    "tag": "Science"
-  },
-  {
-    "id": 82,
-    "question": "Which country hosts the largest mangrove forest in the world?",
-    "options": ["Australia", "India", "Bangladesh", "Indonesia"],
-    "answer": "C",
-    "tag": "Geography"
-  },
-  {
-    "id": 83,
-    "question": "All India Population Census is conducted by which office?",
-    "options": ["NSO", "Census of India", "NITI Aayog", "Registrar General of India"],
-    "answer": "A",
-    "tag": "Polity"
-  },
-  {
-    "id": 84,
-    "question": "Who is called the 'Father of Indian Space Programme'?",
-    "options": ["Vikram Sarabhai", "Homi Bhabha", "Satish Dhawan", "A.P.J. Abdul Kalam"],
-    "answer": "A",
-    "tag": "Science"
-  },
-  {
-    "id": 85,
-    "question": "Which river flows across Bihar and merges into the Ganges near Chapra?",
-    "options": ["Son", "Ghaghara", "Kosi", "Gandak"],
-    "answer": "B",
-    "tag": "Bihar Special Geography"
-  },
-  {
-    "id": 86,
-    "question": "The 'Mission Shakti' was first tested from which platform?",
-    "options": ["INS Vikramaditya", "INS Arihant", "INS Kolkata", "INS Vikrant"],
-    "answer": "C",
-    "tag": "Current Affairs"
-  },
-  {
-    "id": 87,
-    "question": "During 1857 Revolt, which princely state was the first to rebel?",
-    "options": ["Awadh", "Jhansi", "Bihar", "Lucknow"],
-    "answer": "B",
-    "tag": "Modern History"
-  },
-  {
-    "id": 88,
-    "question": "The headquarters of SAARC is located at",
-    "options": ["Kathmandu", "Colombo", "Islamabad", "New Delhi"],
-    "answer": "A",
-    "tag": "Geography"
-  },
-  {
-    "id": 89,
-    "question": "Which Indian state has the highest number of electric vehicle charging stations (as of 2024)?",
-    "options": ["Gujarat", "Tamil Nadu", "Maharashtra", "Delhi"],
-    "answer": "D",
-    "tag": "Current Affairs"
-  },
-  {
-    "id": 90,
-    "question": "Which law deals with cybercrime in India?",
-    "options": ["IT Act, 2000", "IPC", "CrPC", "Evidence Act"],
-    "answer": "A",
-    "tag": "Polity"
-  },
-  {
-    "id": 91,
-    "question": "Where was the first G20 Summit of India held in 2023?",
-    "options": ["Gujarat", "New Delhi", "Mumbai", "Bengaluru"],
-    "answer": "A",
-    "tag": "Current Affairs"
-  },
-  {
-    "id": 92,
-    "question": "Which element is used in nuclear reactors as a moderator?",
-    "options": ["Uranium", "Graphite", "Lead", "Iron"],
-    "answer": "B",
-    "tag": "Science"
-  },
-  {
-    "id": 93,
-    "question": "Which concept refers to India's global stance of nonalignment?",
-    "options": ["Panchsheel", "NAM", "G-77", "BRICS"],
-    "answer": "B",
-    "tag": "Polity"
-  },
-  {
-    "id": 94,
-    "question": "Which excavated site in Bihar reveals the remains of Mauryan period?",
-    "options": ["Vaishali", "Pataliputra", "Nalanda", "Rajgir"],
-    "answer": "D",
-    "tag": "Bihar Special History"
-  },
-  {
-    "id": 95,
-    "question": "Which chemical is used to purify water in India?",
-    "options": ["Chlorine", "Fluoride", "Iodine", "Bromine"],
-    "answer": "A",
-    "tag": "Science"
-  },
-  {
-    "id": 96,
-    "question": "Which part of Indian Constitution deals with Fundamental Duties?",
-    "options": ["Part III", "Part IV", "Part IVA", "Part V"],
-    "answer": "C",
-    "tag": "Polity"
-  },
-  {
-    "id": 97,
-    "question": "What type of economic planning is indicated by the term 'Five Year Plan'?",
-    "options": ["Decentralized planning", "Centralized planning", "Mixed economy", "Market economy"],
-    "answer": "B",
-    "tag": "Economics"
-  },
-  {
-    "id": 98,
-    "question": "Which soil type is associated with the Deccan Plateau?",
-    "options": ["Red Loamy", "Black Cotton Soil", "Alluvial Soil", "Laterite"],
-    "answer": "B",
-    "tag": "Geography"
-  },
-  {
-    "id": 99,
-    "question": "Which article of the Indian Constitution deals with the right to life?",
-    "options": ["Article 19", "Article 20", "Article 21", "Article 22"],
-    "answer": "C",
-    "tag": "Polity"
-  },
-  {
-    "id": 100,
-    "question": "Which state launched the 'Mukhyamantri Kanyadan Yojana' scheme?",
-    "options": ["Bihar", "Uttar Pradesh", "Madhya Pradesh", "Rajasthan"],
-    "answer": "B",
-    "tag": "Current Affairs"
-  },
-  {
-    "id": 101,
-    "question": "Identify the ratio that replaces the question mark: 3:7:: ?",
-    "options": ["15:35", "9:21", "12:28", "18:42"],
-    "answer": "A",
-    "tag": "Aptitude"
-  },
-  {
-    "id": 102,
-    "question": "Which Article of the Indian Constitution defines the structure of High Courts?",
-    "options": ["Article 214", "Article 226", "Article 217", "Article 32"],
-    "answer": "A",
-    "tag": "Polity"
-  },
-  {
-    "id": 103,
-    "question": "Who is the author of the Indian book ‘The Argumentative Indian’?",
-    "options": ["Ramachandra Guha", "Amitav Ghosh", "Arundhati Roy", "Kiran Desai"],
-    "answer": "A",
-    "tag": "Modern History"
-  },
-  {
-    "id": 104,
-    "question": "Which of the following is a state in northeastern India?",
-    "options": ["Jharkhand", "Assam", "Rajasthan", "Madhya Pradesh"],
-    "answer": "B",
-    "tag": "Geography"
-  },
-  {
-    "id": 105,
-    "question": "What is the chemical formula of common baking soda?",
-    "options": ["NaCl", "NaHCO₃", "NH₄Cl", "CaCO₃"],
-    "answer": "B",
-    "tag": "Science"
-  },
-  {
-    "id": 106,
-    "question": "Which of these countries is a member of the Quad?",
-    "options": ["Brazil", "Australia", "Russia", "UAE"],
-    "answer": "B",
-    "tag": "Current Affairs"
-  },
-  {
-    "id": 107,
-    "question": "What is the basic unit of currency used in Nepal?",
-    "options": ["Rupee", "Dollar", "Yen", "Taka"],
-    "answer": "A",
-    "tag": "Economics"
-  },
-  {
-    "id": 108,
-    "question": "Who gave the slogan ‘Jai Jawan Jai Kisan’?",
-    "options": ["Lal Bahadur Shastri", "Jawaharlal Nehru", "Indira Gandhi", "Rajendra Prasad"],
-    "answer": "A",
-    "tag": "Modern History"
-  },
-  {
-    "id": 109,
-    "question": "Which of these chemical elements is a gas at room temperature?",
-    "options": ["Mercury", "Bromine", "Chlorine", "Lead"],
-    "answer": "C",
-    "tag": "Science"
-  },
-  {
-    "id": 110,
-    "question": "Which day is observed as World Earth Day?",
-    "options": ["22 April", "5 June", "1 May", "16 September"],
-    "answer": "A",
-    "tag": "Current Affairs"
-  },
-  {
-    "id": 111,
-    "question": "Which Indian state has Patna as its capital?",
-    "options": ["West Bengal", "Bihar", "Jharkhand", "Odisha"],
-    "answer": "B",
-    "tag": "Bihar Special Geography"
-  },
-  {
-    "id": 112,
-    "question": "Which organelle is known as the powerhouse of the cell?",
-    "options": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"],
-    "answer": "B",
-    "tag": "Science"
-  },
-  {
-    "id": 113,
-    "question": "Who was the principal architect of the Indian Constitution?",
-    "options": ["B. R. Ambedkar", "M. K. Gandhi", "Jawaharlal Nehru", "Sardar Patel"],
-    "answer": "A",
-    "tag": "Polity"
-  },
-  {
-    "id": 114,
-    "question": "Which dynasty built Nalanda University?",
-    "options": ["Gupta", "Pala", "Mughal", "Maurya"],
-    "answer": "B",
-    "tag": "Ancient History"
-  },
-  {
-    "id": 115,
-    "question": "Which Indian classical dance originated from Odisha?",
-    "options": ["Kathak", "Bharatanatyam", "Odissi", "Kathakali"],
-    "answer": "C",
-    "tag": "Bihar Special Culture"
-  },
-  {
-    "id": 116,
-    "question": "Which gas is primarily responsible for greenhouse effect?",
-    "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Argon"],
-    "answer": "C",
-    "tag": "Science"
-  },
-  {
-    "id": 117,
-    "question": "Who is known as the Iron Man of India?",
-    "options": ["Jawaharlal Nehru", "Subhash Chandra Bose", "V. D. Savarkar", "Sardar Vallabhbhai Patel"],
-    "answer": "D",
-    "tag": "Modern History"
-  },
-  {
-    "id": 118,
-    "question": "Which Indian tribal art form comes from Madhya Pradesh?",
-    "options": ["Warli", "Madhubani", "Pattachitra", "Gond"],
-    "answer": "D",
-    "tag": "Geography"
-  },
-  {
-    "id": 119,
-    "question": "Who wrote 'Discovery of India'?",
-    "options": ["Jawaharlal Nehru", "B. R. Ambedkar", "Ram Manohar Lohia", "S. Radhakrishnan"],
-    "answer": "A",
-    "tag": "Modern History"
-  },
-  {
-    "id": 120,
-    "question": "Which Union Territory is known as the 'Island Capital of India'?",
-    "options": ["Lakshadweep", "Andaman and Nicobar Islands", "Daman and Diu", "Puducherry"],
-    "answer": "B",
-    "tag": "Geography"
-  }, 
-  {
-    "id": 121,
-    "question": "Which ratio replaces the question mark: 5:11:: ?",
-    "options": ["25:55", "10:22", "15:33", "20:44"],
-    "answer": "A",
-    "tag": "Aptitude"
-  },
-  {
-    "id": 122,
-    "question": "Article 370 provided special status to which region before its abrogation?",
-    "options": ["Jammu & Kashmir", "Ladakh", "Punjab", "Assam"],
-    "answer": "A",
-    "tag": "Polity"
-  },
-  {
-    "id": 123,
-    "question": "Who authored the book 'India Wins Freedom'?",
-    "options": ["Subhash Chandra Bose", "Jawaharlal Nehru", "Muhammad Ali Jinnah", "Malcolm X"],
-    "answer": "B",
-    "tag": "Modern History"
-  },
-  {
-    "id": 124,
-    "question": "Which is the largest freshwater lake in India?",
-    "options": ["Chilika", "Vembanad", "Wular", "Sambhar"],
-    "answer": "C",
-    "tag": "Geography"
-  },
-  {
-    "id": 125,
-    "question": "Which gas is commonly used in dry cell batteries?",
-    "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "None—it's chemical reaction based"],
-    "answer": "D",
-    "tag": "Science"
-  },
-  {
-    "id": 126,
-    "question": "Which country recently announced Virtual G20 Summit?",
-    "options": ["India", "USA", "UK", "Germany"],
-    "answer": "A",
-    "tag": "Current Affairs"
-  },
-  {
-    "id": 127,
-    "question": "Which is Bhutan’s currency called?",
-    "options": ["Ngultrum", "Dollar", "Riyal", "Pound"],
-    "answer": "A",
-    "tag": "Economics"
-  },
-  {
-    "id": 128,
-    "question": "What did Mahatma Gandhi call his principles of non-violent protest?",
-    "options": ["Swaraj", "Satyagraha", "Ahimsa", "Sarvodaya"],
-    "answer": "B",
-    "tag": "Modern History"
-  },
-  {
-    "id": 129,
-    "question": "Which element is liquid at room temperature?",
-    "options": ["Mercury", "Bromine", "Chlorine", "Both A and B"],
-    "answer": "D",
-    "tag": "Science"
-  },
-  {
-    "id": 130,
-    "question": "World Bank’s headquarter is situated in which city?",
-    "options": ["Geneva", "New York", "Washington D.C.", "London"],
-    "answer": "C",
-    "tag": "Current Affairs"
-  },
-  {
-    "id": 131,
-    "question": "Which is the longest river in Bihar?",
-    "options": ["Ganga", "Kosi", "Gandak", "Son"],
-    "answer": "A",
-    "tag": "Bihar Special Geography"
-  },
-  {
-    "id": 132,
-    "question": "What part of a plant is primarily used for photosynthesis?",
-    "options": ["Roots", "Stems", "Leaves", "Flowers"],
-    "answer": "C",
-    "tag": "Science"
-  },
-  {
-    "id": 133,
-    "question": "Who chaired the drafting committee of the Indian Constitution?",
-    "options": ["B. R. Ambedkar", "Jawaharlal Nehru", "Rajendra Prasad", "Sardar Patel"],
-    "answer": "A",
-    "tag": "Polity"
-  },
-  {
-    "id": 134,
-    "question": "Which temple in Bihar is famous for ‘Chhath Puja’ celebrations?",
-    "options": ["Vishnupad Temple", "Mahabodhi Temple", "Barabar Caves", "None of these"],
-    "answer": "A",
-    "tag": "Bihar Special Culture"
-  },
-  {
-    "id": 135,
-    "question": "Which process is used for the extraction of alumina from bauxite?",
-    "options": ["Hall-Héroult", "Bayer", "Frasch", "Heinrich"],
-    "answer": "B",
-    "tag": "Science"
-  },
-  {
-    "id": 136,
-    "question": "Which platform handles real-time settlement in India?",
-    "options": ["NEFT", "RTGS", "IMPS", "UPI"],
-    "answer": "B",
-    "tag": "Economics"
-  },
-  {
-    "id": 137,
-    "question": "Who is known as the 'Iron Man of India'?",
-    "options": ["Jawaharlal Nehru", "Subhash Chandra Bose", "V. D. Savarkar", "Sardar Patel"],
-    "answer": "D",
-    "tag": "Modern History"
-  },
-  {
-    "id": 138,
-    "question": "Which tribal dance form originates from Madhya Pradesh?",
-    "options": ["Warli", "Madhubani", "Pattachitra", "Gond"],
-    "answer": "D",
-    "tag": "Geography"
-  },
-  {
-    "id": 139,
-    "question": "Who authored ‘Discovery of India’?",
-    "options": ["Jawaharlal Nehru", "B. R. Ambedkar", "Ram Manohar Lohia", "S. Radhakrishnan"],
-    "answer": "A",
-    "tag": "Modern History"
-  },
-  {
-    "id": 140,
-    "question": "Which Union Territory is an archipelago?",
-    "options": ["Lakshadweep", "Andaman & Nicobar Islands", "Daman & Diu", "Puducherry"],
-    "answer": "B",
-    "tag": "Geography"
-  },
-  {
-    "id": 141,
-    "question": "Identify the missing number in the sequence: 2, 6, 12, 20, ?, 42",
-    "options": ["30", "28", "32", "36"],
-    "answer": "C",
-    "tag": "Aptitude"
-  },
-  {
-    "id": 142,
-    "question": "Which constitutional amendment granted reservation for women in local bodies?",
-    "options": ["73rd", "74th", "81st", "86th"],
-    "answer": "D",
-    "tag": "Polity"
-  },
-  {
-    "id": 143,
-    "question": "Who authored the book 'The Argumentative Indian'?",
-    "options": ["Ramachandra Guha", "Amitav Ghosh", "Arundhati Roy", "Kiran Desai"],
-    "answer": "D",
-    "tag": "Modern History"
-  },
-  {
-    "id": 144,
-    "question": "Which river is called the ‘Sorrow of Bihar’?",
-    "options": ["Kosi", "Gandak", "Son", "Ganges"],
-    "answer": "D",
-    "tag": "Bihar Special Geography"
-  },
-  {
-    "id": 145,
-    "question": "What is the chemical symbol for gold?",
-    "options": ["Au", "Ag", "Gd", "Ga"],
-    "answer": "D",
-    "tag": "Science"
-  },
-  {
-    "id": 146,
-    "question": "Which economic measure aims to regulate inflation?",
-    "options": ["Repo Rate", "CRR", "SLR", "All of the above"],
-    "answer": "D",
-    "tag": "Economics"
-  },
-  {
-    "id": 147,
-    "question": "Who is recognized as the 'Iron Man of India'?",
-    "options": ["Jawaharlal Nehru", "Subhash Chandra Bose", "V. D. Savarkar", "Sardar Vallabhbhai Patel"],
-    "answer": "C",
-    "tag": "Modern History"
-  },
-  {
-    "id": 148,
-    "question": "Which dance form originates in Madhya Pradesh?",
-    "options": ["Warli", "Madhubani", "Pattachitra", "Gond"],
-    "answer": "D",
-    "tag": "Geography"
-  },
-  {
-    "id": 149,
-    "question": "Who wrote 'Discovery of India'?",
-    "options": ["Jawaharlal Nehru", "B. R. Ambedkar", "Ram Manohar Lohia", "S. Radhakrishnan"],
-    "answer": "C",
-    "tag": "Modern History"
-  },
-  {
-    "id": 150,
-    "question": "Who chaired the drafting committee of the Indian Constitution?",
-    "options": ["Dr. B.R. Ambedkar", "Jawaharlal Nehru", "Alladi Krishnaswamy Iyer", "M.N. Roy"],
-    "answer": "A",
-    "tag": "Polity"
-  }
+    "tag": "Current Affairs",
+    "difficulty": "Medium"
+  },
+
+ {
+  "id": 51,
+  "question": "In the Union Budget 2024-25, which oilseed was noted as not being covered under the goal of Atmanirbharta?",
+  "options": ["Sesame", "Coconut", "Soybean", "Groundnut"],
+  "answer": "B",
+  "tag": "Economics",
+  "difficulty": "medium"
+},
+{
+  "id": 52,
+  "question": "Who gave the slogan 'DO OR DIE' and during which movement?",
+  "options": ["Subhash Chandra Bose during Quit India Movement", "Jawaharlal Nehru during Non‑cooperation", "Gandhiji during Quit India Movement", "Bhagat Singh during Civil Disobedience"],
+  "answer": "C",
+  "tag": "Modern History",
+  "difficulty": "easy"
+},
+{
+  "id": 53,
+  "question": "The first Hindi daily newspaper to be published in Bihar was?",
+  "options": ["Kshatriya Samachar", "Udyoga", "Sarwa Hitaishi", "Chaitanya Chandrika"],
+  "answer": "C",
+  "tag": "Bihar Special History",
+  "difficulty": "medium"
+},
+{
+  "id": 54,
+  "question": "Which of the following has a highly elongated elliptical orbit?",
+  "options": ["Asteroid", "Comet", "Meteorite", "Meteor"],
+  "answer": "B",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 55,
+  "question": "Which non‑contact force is?",
+  "options": ["Magnetic force", "Frictional force", "Impact force", "None of these"],
+  "answer": "A",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 56,
+  "question": "Motorcycle is related to battery as life is related to ____?",
+  "options": ["Moon", "Earth", "Star", "Sun"],
+  "answer": "D",
+  "tag": "Aptitude",
+  "difficulty": "easy"
+},
+{
+  "id": 57,
+  "question": "Which metal is recovered using electrolysis?",
+  "options": ["Zinc", "Sodium", "Lithium", "Copper"],
+  "answer": "B",
+  "tag": "Science",
+  "difficulty": "medium"
+},
+{
+  "id": 58,
+  "question": "Which acid is secreted in the stomach?",
+  "options": ["Sulphuric acid", "Nitric acid", "Phosphoric acid", "Hydrochloric acid"],
+  "answer": "D",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 59,
+  "question": "Which scale measures the strength of earthquakes?",
+  "options": ["Richter scale", "Beaufort scale", "Fujita scale", "Mohs scale"],
+  "answer": "A",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 60,
+  "question": "Heat transfer that does not require a medium is called:",
+  "options": ["Radiation", "Reflection", "Conduction", "Convection"],
+  "answer": "A",
+  "tag": "Science",
+  "difficulty": "easy"
+},{
+  "id": 61,
+  "question": "Which vitamin is synthesized when the skin is exposed to sunlight?",
+  "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+  "answer": "C",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 62,
+  "question": "Which Mughal emperor built the Red Fort in Delhi?",
+  "options": ["Akbar", "Shah Jahan", "Jehangir", "Aurangzeb"],
+  "answer": "B",
+  "tag": "Medieval History",
+  "difficulty": "easy"
+},
+{
+  "id": 63,
+  "question": "What does RBI's repo rate refer to?",
+  "options": ["Rate at which RBI lends to banks", "Rate at which banks lend to RBI", "Rate of bank deposits", "Rate of inflation"],
+  "answer": "A",
+  "tag": "Economics",
+  "difficulty": "medium"
+},
+{
+  "id": 64,
+  "question": "Which national park is located in Bihar?",
+  "options": ["Valmiki National Park", "Kaziranga National Park", "Sundarbans National Park", "Gir National Park"],
+  "answer": "A",
+  "tag": "Bihar Special Geography",
+  "difficulty": "easy"
+},
+{
+  "id": 65,
+  "question": "Which Amendment of Indian Constitution gave women reservation in local bodies?",
+  "options": ["73rd", "74th", "81st", "86th"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "medium"
+},
+{
+  "id": 66,
+  "question": "Which soil type is most suitable for tea cultivation?",
+  "options": ["Red soil", "Loamy soil", "Lateritic soil", "Black soil"],
+  "answer": "C",
+  "tag": "Geography",
+  "difficulty": "medium"
+},
+{
+  "id": 67,
+  "question": "What is the chemical formula for ozone?",
+  "options": ["O₂", "O₃", "O₄", "O₅"],
+  "answer": "B",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 68,
+  "question": "Who founded the Patna School of Painting in 18th century?",
+  "options": ["Mukul Roy", "Kalu Ram", "Ashtapad", "Lakshmi Narayan"],
+  "answer": "B",
+  "tag": "Bihar Special History",
+  "difficulty": "medium"
+},
+{
+  "id": 69,
+  "question": "The concept of 'Five year plans' in India was inherited from which country?",
+  "options": ["USA", "UK", "USSR", "China"],
+  "answer": "C",
+  "tag": "Economics",
+  "difficulty": "easy"
+},
+{
+  "id": 70,
+  "question": "Which of these is a non-renewable source of energy?",
+  "options": ["Solar", "Wind", "Natural Gas", "Hydro"],
+  "answer": "C",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 71,
+  "question": "Who was the founder of the Maurya Empire?",
+  "options": ["Chandragupta Maurya", "Ashoka", "Bindusara", "Mahapadma Nanda"],
+  "answer": "A",
+  "tag": "Ancient History",
+  "difficulty": "easy"
+},
+{
+  "id": 72,
+  "question": "What is the primary language spoken in Bihar?",
+  "options": ["Hindi", "Maithili", "Bhojpuri", "Magahi"],
+  "answer": "A",
+  "tag": "Bihar Special Culture",
+  "difficulty": "easy"
+},
+{
+  "id": 73,
+  "question": "Which article of the Indian Constitution allows freedom of speech?",
+  "options": ["Article 14", "Article 19", "Article 21", "Article 22"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "medium"
+},
+{
+  "id": 74,
+  "question": "Which neighboring country is to the north of Bihar?",
+  "options": ["Nepal", "Bangladesh", "Bhutan", "Myanmar"],
+  "answer": "A",
+  "tag": "Geography",
+  "difficulty": "easy"
+},
+{
+  "id": 75,
+  "question": "Which radioactive element was used in the Chernobyl disaster?",
+  "options": ["Uranium", "Plutonium", "Cesium", "Iodine"],
+  "answer": "A",
+  "tag": "Science",
+  "difficulty": "medium"
+},
+{
+  "id": 76,
+  "question": "Which saint is associated with Bihar and said to have attained enlightenment in Gaya?",
+  "options": ["Guru Gobind Singh", "Mahavira", "Gautama Buddha", "Saint Kabir"],
+  "answer": "C",
+  "tag": "Bihar Special History",
+  "difficulty": "easy"
+},
+{
+  "id": 77,
+  "question": "Which is the largest district in Bihar by area?",
+  "options": ["Gaya", "Patna", "Purnia", "Muzaffarpur"],
+  "answer": "C",
+  "tag": "Bihar Special Geography",
+  "difficulty": "medium"
+},
+{
+  "id": 78,
+  "question": "Which vitamin deficiency causes scurvy?",
+  "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+  "answer": "C",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 79,
+  "question": "Which plan aimed to double farmers' income by 2022?",
+  "options": ["National Food Security Mission", "Pradhan Mantri Fasal Bima Yojana", "Doubling Farmers' Income", "Soil Health Card Scheme"],
+  "answer": "C",
+  "tag": "Economics",
+  "difficulty": "medium"
+},
+{
+  "id": 80,
+  "question": "Which empire's capital was at Pataliputra?",
+  "options": ["Maurya", "Gupta", "Magadha", "Mughal"],
+  "answer": "A",
+  "tag": "Ancient History",
+  "difficulty": "easy"
+},{
+  "id": 81,
+  "question": "Which vitamin deficiency causes night blindness?",
+  "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+  "answer": "A",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 82,
+  "question": "Which country hosts the largest mangrove forest in the world?",
+  "options": ["Australia", "India", "Bangladesh", "Indonesia"],
+  "answer": "C",
+  "tag": "Geography",
+  "difficulty": "medium"
+},
+{
+  "id": 83,
+  "question": "All India Population Census is conducted by which office?",
+  "options": ["NSO", "Census of India", "NITI Aayog", "Registrar General of India"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "medium"
+},
+{
+  "id": 84,
+  "question": "Who is called the 'Father of Indian Space Programme'?",
+  "options": ["Vikram Sarabhai", "Homi Bhabha", "Satish Dhawan", "A.P.J. Abdul Kalam"],
+  "answer": "A",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 85,
+  "question": "Which river flows across Bihar and merges into the Ganges near Chapra?",
+  "options": ["Son", "Ghaghara", "Kosi", "Gandak"],
+  "answer": "B",
+  "tag": "Bihar Special Geography",
+  "difficulty": "medium"
+},
+{
+  "id": 86,
+  "question": "The 'Mission Shakti' was first tested from which platform?",
+  "options": ["INS Vikramaditya", "INS Arihant", "INS Kolkata", "INS Vikrant"],
+  "answer": "C",
+  "tag": "Current Affairs",
+  "difficulty": "hard"
+},
+{
+  "id": 87,
+  "question": "During 1857 Revolt, which princely state was the first to rebel?",
+  "options": ["Awadh", "Jhansi", "Bihar", "Lucknow"],
+  "answer": "B",
+  "tag": "Modern History",
+  "difficulty": "medium"
+},
+{
+  "id": 88,
+  "question": "The headquarters of SAARC is located at",
+  "options": ["Kathmandu", "Colombo", "Islamabad", "New Delhi"],
+  "answer": "A",
+  "tag": "Geography",
+  "difficulty": "easy"
+},
+{
+  "id": 89,
+  "question": "Which Indian state has the highest number of electric vehicle charging stations (as of 2024)?",
+  "options": ["Gujarat", "Tamil Nadu", "Maharashtra", "Delhi"],
+  "answer": "D",
+  "tag": "Current Affairs",
+  "difficulty": "medium"
+},
+{
+  "id": 90,
+  "question": "Which law deals with cybercrime in India?",
+  "options": ["IT Act, 2000", "IPC", "CrPC", "Evidence Act"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "easy"
+},
+{
+  "id": 91,
+  "question": "Where was the first G20 Summit of India held in 2023?",
+  "options": ["Gujarat", "New Delhi", "Mumbai", "Bengaluru"],
+  "answer": "A",
+  "tag": "Current Affairs",
+  "difficulty": "medium"
+},
+{
+  "id": 92,
+  "question": "Which element is used in nuclear reactors as a moderator?",
+  "options": ["Uranium", "Graphite", "Lead", "Iron"],
+  "answer": "B",
+  "tag": "Science",
+  "difficulty": "medium"
+},
+{
+  "id": 93,
+  "question": "Which concept refers to India's global stance of nonalignment?",
+  "options": ["Panchsheel", "NAM", "G-77", "BRICS"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "medium"
+},
+{
+  "id": 94,
+  "question": "Which excavated site in Bihar reveals the remains of Mauryan period?",
+  "options": ["Vaishali", "Pataliputra", "Nalanda", "Rajgir"],
+  "answer": "D",
+  "tag": "Bihar Special History",
+  "difficulty": "medium"
+},
+{
+  "id": 95,
+  "question": "Which chemical is used to purify water in India?",
+  "options": ["Chlorine", "Fluoride", "Iodine", "Bromine"],
+  "answer": "A",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 96,
+  "question": "Which part of Indian Constitution deals with Fundamental Duties?",
+  "options": ["Part III", "Part IV", "Part IVA", "Part V"],
+  "answer": "C",
+  "tag": "Polity",
+  "difficulty": "medium"
+},
+{
+  "id": 97,
+  "question": "What type of economic planning is indicated by the term 'Five Year Plan'?",
+  "options": ["Decentralized planning", "Centralized planning", "Mixed economy", "Market economy"],
+  "answer": "B",
+  "tag": "Economics",
+  "difficulty": "easy"
+},
+{
+  "id": 98,
+  "question": "Which soil type is associated with the Deccan Plateau?",
+  "options": ["Red Loamy", "Black Cotton Soil", "Alluvial Soil", "Laterite"],
+  "answer": "B",
+  "tag": "Geography",
+  "difficulty": "medium"
+},
+{
+  "id": 99,
+  "question": "Which article of the Indian Constitution deals with the right to life?",
+  "options": ["Article 19", "Article 20", "Article 21", "Article 22"],
+  "answer": "C",
+  "tag": "Polity",
+  "difficulty": "medium"
+},
+{
+  "id": 100,
+  "question": "Which state launched the 'Mukhyamantri Kanyadan Yojana' scheme?",
+  "options": ["Bihar", "Uttar Pradesh", "Madhya Pradesh", "Rajasthan"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "medium"
+},
+{
+  "id": 101,
+  "question": "Identify the ratio that replaces the question mark: 3:7:: ?",
+  "options": ["15:35", "9:21", "12:28", "18:42"],
+  "answer": "A",
+  "tag": "Aptitude",
+  "difficulty": "easy"
+},
+{
+  "id": 102,
+  "question": "Which Article of the Indian Constitution defines the structure of High Courts?",
+  "options": ["Article 214", "Article 226", "Article 217", "Article 32"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "medium"
+},
+{
+  "id": 103,
+  "question": "Who is the author of the Indian book ‘The Argumentative Indian’?",
+  "options": ["Ramachandra Guha", "Amitav Ghosh", "Arundhati Roy", "Kiran Desai"],
+  "answer": "A",
+  "tag": "Modern History",
+  "difficulty": "medium"
+},
+{
+  "id": 104,
+  "question": "Which of the following is a state in northeastern India?",
+  "options": ["Jharkhand", "Assam", "Rajasthan", "Madhya Pradesh"],
+  "answer": "B",
+  "tag": "Geography",
+  "difficulty": "easy"
+},
+{
+  "id": 105,
+  "question": "What is the chemical formula of common baking soda?",
+  "options": ["NaCl", "NaHCO₃", "NH₄Cl", "CaCO₃"],
+  "answer": "B",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 106,
+  "question": "Which of these countries is a member of the Quad?",
+  "options": ["Brazil", "Australia", "Russia", "UAE"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "medium"
+},
+{
+  "id": 107,
+  "question": "What is the basic unit of currency used in Nepal?",
+  "options": ["Rupee", "Dollar", "Yen", "Taka"],
+  "answer": "A",
+  "tag": "Economics",
+  "difficulty": "easy"
+},
+{
+  "id": 108,
+  "question": "Who gave the slogan ‘Jai Jawan Jai Kisan’?",
+  "options": ["Lal Bahadur Shastri", "Jawaharlal Nehru", "Indira Gandhi", "Rajendra Prasad"],
+  "answer": "A",
+  "tag": "Modern History",
+  "difficulty": "easy"
+},
+{
+  "id": 109,
+  "question": "Which of these chemical elements is a gas at room temperature?",
+  "options": ["Mercury", "Bromine", "Chlorine", "Lead"],
+  "answer": "C",
+  "tag": "Science",
+  "difficulty": "medium"
+},
+{
+  "id": 110,
+  "question": "Which day is observed as World Earth Day?",
+  "options": ["22 April", "5 June", "1 May", "16 September"],
+  "answer": "A",
+  "tag": "Current Affairs",
+  "difficulty": "easy"
+
+},
+{
+  "id": 111,
+  "question": "Which Indian state has Patna as its capital?",
+  "options": ["West Bengal", "Bihar", "Jharkhand", "Odisha"],
+  "answer": "B",
+  "tag": "Bihar Special Geography",
+  "difficulty": "easy"
+},
+{
+  "id": 112,
+  "question": "Which organelle is known as the powerhouse of the cell?",
+  "options": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"],
+  "answer": "B",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 113,
+  "question": "Who was the principal architect of the Indian Constitution?",
+  "options": ["B. R. Ambedkar", "M. K. Gandhi", "Jawaharlal Nehru", "Sardar Patel"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "easy"
+},
+{
+  "id": 114,
+  "question": "Which dynasty built Nalanda University?",
+  "options": ["Gupta", "Pala", "Mughal", "Maurya"],
+  "answer": "B",
+  "tag": "Ancient History",
+  "difficulty": "medium"
+},
+{
+  "id": 115,
+  "question": "Which Indian classical dance originated from Odisha?",
+  "options": ["Kathak", "Bharatanatyam", "Odissi", "Kathakali"],
+  "answer": "C",
+  "tag": "Bihar Special Culture",
+  "difficulty": "medium"
+},
+{
+  "id": 116,
+  "question": "Which gas is primarily responsible for greenhouse effect?",
+  "options": ["Nitrogen", "Oxygen", "Carbon dioxide", "Argon"],
+  "answer": "C",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 117,
+  "question": "Who is known as the Iron Man of India?",
+  "options": ["Jawaharlal Nehru", "Subhash Chandra Bose", "V. D. Savarkar", "Sardar Vallabhbhai Patel"],
+  "answer": "D",
+  "tag": "Modern History",
+  "difficulty": "easy"
+},
+{
+  "id": 118,
+  "question": "Which Indian tribal art form comes from Madhya Pradesh?",
+  "options": ["Warli", "Madhubani", "Pattachitra", "Gond"],
+  "answer": "D",
+  "tag": "Geography",
+  "difficulty": "medium"
+},
+{
+  "id": 119,
+  "question": "Who wrote 'Discovery of India'?",
+  "options": ["Jawaharlal Nehru", "B. R. Ambedkar", "Ram Manohar Lohia", "S. Radhakrishnan"],
+  "answer": "A",
+  "tag": "Modern History",
+  "difficulty": "easy"
+},
+{
+  "id": 120,
+  "question": "Which Union Territory is known as the 'Island Capital of India'?",
+  "options": ["Lakshadweep", "Andaman and Nicobar Islands", "Daman and Diu", "Puducherry"],
+  "answer": "B",
+  "tag": "Geography",
+  "difficulty": "medium"
+},
+{
+  "id": 121,
+  "question": "Which ratio replaces the question mark: 5:11:: ?",
+  "options": ["25:55", "10:22", "15:33", "20:44"],
+  "answer": "A",
+  "tag": "Aptitude",
+  "difficulty": "easy"
+},
+{
+  "id": 122,
+  "question": "Article 370 provided special status to which region before its abrogation?",
+  "options": ["Jammu & Kashmir", "Ladakh", "Punjab", "Assam"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "medium"
+},
+{
+  "id": 123,
+  "question": "Who authored the book 'India Wins Freedom'?",
+  "options": ["Subhash Chandra Bose", "Jawaharlal Nehru", "Muhammad Ali Jinnah", "Malcolm X"],
+  "answer": "B",
+  "tag": "Modern History",
+  "difficulty": "medium"
+},
+{
+  "id": 124,
+  "question": "Which is the largest freshwater lake in India?",
+  "options": ["Chilika", "Vembanad", "Wular", "Sambhar"],
+  "answer": "C",
+  "tag": "Geography",
+  "difficulty": "medium"
+},
+{
+  "id": 125,
+  "question": "Which gas is commonly used in dry cell batteries?",
+  "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "None—it's chemical reaction based"],
+  "answer": "D",
+  "tag": "Science",
+  "difficulty": "medium"
+},
+{
+  "id": 126,
+  "question": "Which country recently announced Virtual G20 Summit?",
+  "options": ["India", "USA", "UK", "Germany"],
+  "answer": "A",
+  "tag": "Current Affairs",
+  "difficulty": "easy"
+},
+{
+  "id": 127,
+  "question": "Which is Bhutan’s currency called?",
+  "options": ["Ngultrum", "Dollar", "Riyal", "Pound"],
+  "answer": "A",
+  "tag": "Economics",
+  "difficulty": "easy"
+},
+{
+  "id": 128,
+  "question": "What did Mahatma Gandhi call his principles of non-violent protest?",
+  "options": ["Swaraj", "Satyagraha", "Ahimsa", "Sarvodaya"],
+  "answer": "B",
+  "tag": "Modern History",
+  "difficulty": "easy"
+},
+{
+  "id": 129,
+  "question": "Which element is liquid at room temperature?",
+  "options": ["Mercury", "Bromine", "Chlorine", "Both A and B"],
+  "answer": "D",
+  "tag": "Science",
+  "difficulty": "medium"
+},
+{
+  "id": 130,
+  "question": "World Bank’s headquarter is situated in which city?",
+  "options": ["Geneva", "New York", "Washington D.C.", "London"],
+  "answer": "C",
+  "tag": "Current Affairs",
+  "difficulty": "medium"
+},
+{
+  "id": 131,
+  "question": "Which is the longest river in Bihar?",
+  "options": ["Ganga", "Kosi", "Gandak", "Son"],
+  "answer": "A",
+  "tag": "Bihar Special Geography",
+  "difficulty": "easy"
+},
+{
+  "id": 132,
+  "question": "What part of a plant is primarily used for photosynthesis?",
+  "options": ["Roots", "Stems", "Leaves", "Flowers"],
+  "answer": "C",
+  "tag": "Science",
+  "difficulty": "easy"
+},
+{
+  "id": 133,
+  "question": "Who chaired the drafting committee of the Indian Constitution?",
+  "options": ["B. R. Ambedkar", "Jawaharlal Nehru", "Rajendra Prasad", "Sardar Patel"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "easy"
+},
+{
+  "id": 134,
+  "question": "Which temple in Bihar is famous for ‘Chhath Puja’ celebrations?",
+  "options": ["Vishnupad Temple", "Mahabodhi Temple", "Barabar Caves", "None of these"],
+  "answer": "A",
+  "tag": "Bihar Special Culture",
+  "difficulty": "medium"
+},
+{
+  "id": 135,
+  "question": "Which process is used for the extraction of alumina from bauxite?",
+  "options": ["Hall-Héroult", "Bayer", "Frasch", "Heinrich"],
+  "answer": "B",
+  "tag": "Science",
+  "difficulty": "medium"
+},
+{
+  "id": 136,
+  "question": "Which platform handles real-time settlement in India?",
+  "options": ["NEFT", "RTGS", "IMPS", "UPI"],
+  "answer": "B",
+  "tag": "Economics",
+  "difficulty": "medium"
+},
+{
+  "id": 137,
+  "question": "Who is known as the 'Iron Man of India'?",
+  "options": ["Jawaharlal Nehru", "Subhash Chandra Bose", "V. D. Savarkar", "Sardar Patel"],
+  "answer": "D",
+  "tag": "Modern History",
+  "difficulty": "easy"
+},
+{
+  "id": 138,
+  "question": "Which tribal dance form originates from Madhya Pradesh?",
+  "options": ["Warli", "Madhubani", "Pattachitra", "Gond"],
+  "answer": "D",
+  "tag": "Geography",
+  "difficulty": "medium"
+},
+{
+  "id": 139,
+  "question": "Who authored ‘Discovery of India’?",
+  "options": ["Jawaharlal Nehru", "B. R. Ambedkar", "Ram Manohar Lohia", "S. Radhakrishnan"],
+  "answer": "A",
+  "tag": "Modern History",
+  "difficulty": "easy"
+},
+{
+  "id": 140,
+  "question": "Which Union Territory is an archipelago?",
+  "options": ["Lakshadweep", "Andaman & Nicobar Islands", "Daman & Diu", "Puducherry"],
+  "answer": "B",
+  "tag": "Geography",
+  "difficulty": "easy"
+},
+{
+  "id": 141,
+  "question": "Identify the missing number in the sequence: 2, 6, 12, 20, ?, 42",
+  "options": ["30", "28", "32", "36"],
+  "answer": "C",
+  "tag": "Aptitude",
+  "difficulty": "medium"
+},
+{
+  "id": 142,
+  "question": "Which constitutional amendment granted reservation for women in local bodies?",
+  "options": ["73rd", "74th", "81st", "86th"],
+  "answer": "D",
+  "tag": "Polity",
+  "difficulty": "medium"
+},
+{
+  "id": 143,
+  "question": "Who authored the book 'The Argumentative Indian'?",
+  "options": ["Ramachandra Guha", "Amitav Ghosh", "Arundhati Roy", "Kiran Desai"],
+  "answer": "D",
+  "tag": "Modern History",
+  "difficulty": "hard"
+},
+{
+  "id": 144,
+  "question": "Which river is called the ‘Sorrow of Bihar’?",
+  "options": ["Kosi", "Gandak", "Son", "Ganges"],
+  "answer": "D",
+  "tag": "Bihar Special Geography",
+  "difficulty": "easy"
+},
+{
+  "id": 145,
+  "question": "What is the chemical symbol for gold?",
+  "options": ["Au", "Ag", "Gd", "Ga"],
+  "answer": "D",
+  "tag": "Science",
+  "difficulty": "medium"
+},
+{
+  "id": 146,
+  "question": "Which economic measure aims to regulate inflation?",
+  "options": ["Repo Rate", "CRR", "SLR", "All of the above"],
+  "answer": "D",
+  "tag": "Economics",
+  "difficulty": "medium"
+},
+{
+  "id": 147,
+  "question": "Who is recognized as the 'Iron Man of India'?",
+  "options": ["Jawaharlal Nehru", "Subhash Chandra Bose", "V. D. Savarkar", "Sardar Vallabhbhai Patel"],
+  "answer": "C",
+  "tag": "Modern History",
+  "difficulty": "hard"
+},
+{
+  "id": 148,
+  "question": "Which dance form originates in Madhya Pradesh?",
+  "options": ["Warli", "Madhubani", "Pattachitra", "Gond"],
+  "answer": "D",
+  "tag": "Geography",
+  "difficulty": "medium"
+},
+{
+  "id": 149,
+  "question": "Who wrote 'Discovery of India'?",
+  "options": ["Jawaharlal Nehru", "B. R. Ambedkar", "Ram Manohar Lohia", "S. Radhakrishnan"],
+  "answer": "C",
+  "tag": "Modern History",
+  "difficulty": "hard"
+},
+{
+  "id": 150,
+  "question": "Who chaired the drafting committee of the Indian Constitution?",
+  "options": ["Dr. B.R. Ambedkar", "Jawaharlal Nehru", "Alladi Krishnaswamy Iyer", "M.N. Roy"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "easy"
+}
+
+
+
+
+
+ 
 
 
 

@@ -1,1091 +1,969 @@
+[
+  
+  {
+    "id": 1,
+    "question": "The Maithili language developed during the reign of which dynasty?",
+    "options": ["Chero dynasty", "Oiniwar dynasty", "Karnat dynasty", "Pithipatis"],
+    "answer": "C",
+    "tag": "Medieval History",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2,
+    "question": "Head of Russia's Wagner Mercenary Group was:",
+    "options": ["Sergei Shoigu", "Yevgeny Prigozhin", "Aleksandr Lukashenko", "Volodymyr Zelenskyy"],
+    "answer": "B",
+    "tag": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "question": "Which pair is correctly matched? 1. Anorexia: Sleep disorder 2. Insomnia: Eating disorder 3. Dyspnoea: Shortness of breath 4. Anosmia: Loss of smell",
+    "options": ["Only 1 and 2", "Only 2 and 3", "Only 3 and 4", "All of the above"],
+    "answer": "C",
+    "tag": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4,
+    "question": "Who founded the Patna School of Painting in the 18th century?",
+    "options": ["Mukul Roy", "Kalu Ram", "Ashtapad", "Lakshmi Narayan"],
+    "answer": "B",
+    "tag": "Bihar Special Culture",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "question": "Which river forms the 'Triveni Sangam' with Ganga and Yamuna in Allahabad?",
+    "options": ["Gandak", "Kosi", "Saraswati", "Son"],
+    "answer": "C",
+    "tag": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6,
+    "question": "The 'Bhoodan Movement' in Bihar was led by:",
+    "options": ["Jayaprakash Narayan", "Vinoba Bhave", "Ram Manohar Lohia", "Karpoori Thakur"],
+    "answer": "B",
+    "tag": "Modern History",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 7,
+    "question": "Which district of Bihar is known for 'Madhubani Painting'?",
+    "options": ["Darbhanga", "Madhubani", "Sitamarhi", "Samastipur"],
+    "answer": "B",
+    "tag": "Bihar Special Culture",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 8,
+    "question": "The concept of 'Judicial Review' in the Indian Constitution is borrowed from:",
+    "options": ["UK", "USA", "Canada", "Australia"],
+    "answer": "B",
+    "tag": "Polity",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9,
+    "question": "Which of these is a Kharif crop in Bihar?",
+    "options": ["Wheat", "Mustard", "Rice", "Barley"],
+    "answer": "C",
+    "tag": "Bihar Special Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 10,
+    "question": "The ruins of Nalanda University are located in which modern-day district?",
+    "options": ["Patna", "Gaya", "Nalanda", "Rajgir"],
+    "answer": "C",
+    "tag": "Ancient History",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 11,
+    "question": "Who was the first Chief Minister of Bihar?",
+    "options": ["Anugrah Narayan Sinha", "Sri Krishna Singh", "K.B. Sahay", "Binodanand Jha"],
+    "answer": "B",
+    "tag": "Modern History",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 12,
+    "question": "The 'Pradhan Mantri Kisan Samman Nidhi' provides direct income support of:",
+    "options": ["₹2,000/year", "₹6,000/year", "₹10,000/year", "₹12,000/year"],
+    "answer": "B",
+    "tag": "Economics",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 13,
+    "question": "Which Gupta ruler is known as 'Napoleon of India'?",
+    "options": ["Chandragupta I", "Samudragupta", "Chandragupta II", "Skandagupta"],
+    "answer": "B",
+    "tag": "Ancient History",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 14,
+    "question": "Bihar's first wildlife sanctuary is:",
+    "options": ["Valmiki National Park", "Bhimbandh Sanctuary", "Gautam Budha Wildlife Sanctuary", "Pant Wildlife Sanctuary"],
+    "answer": "A",
+    "tag": "Bihar Special Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 15,
+    "question": "The 'Right to Education' was added to the Constitution under Article:",
+    "options": ["21A", "45", "51A", "32"],
+    "answer": "A",
+    "tag": "Polity",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 16,
+    "question": "Which of these is NOT a folk dance of Bihar?",
+    "options": ["Jat-Jatin", "Jhijhiya", "Paika", "Garba"],
+    "answer": "D",
+    "tag": "Bihar Special Culture",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 17,
+    "question": "The 'Chipko Movement' was primarily associated with:",
+    "options": ["Water conservation", "Forest conservation", "Women's education", "Tribal rights"],
+    "answer": "B",
+    "tag": "Modern History",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 18,
+    "question": "Bihar shares its longest border with which state?",
+    "options": ["Uttar Pradesh", "Jharkhand", "West Bengal", "Nepal"],
+    "answer": "A",
+    "tag": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 19,
+    "question": "The 'Hajong' tribe is primarily found in:",
+    "options": ["Bihar", "Assam", "Nagaland", "Chhattisgarh"],
+    "answer": "B",
+    "tag": "Current Affairs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 20,
+    "question": "Which river is known as 'Sorrow of Bihar'?",
+    "options": ["Ganga", "Kosi", "Gandak", "Bagmati"],
+    "answer": "B",
+    "tag": "Bihar Special Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 21,
+    "question": "The 'Directive Principles of State Policy' are inspired by the Constitution of:",
+    "options": ["USA", "Ireland", "Canada", "Australia"],
+    "answer": "B",
+    "tag": "Polity",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 22,
+    "question": "Who built the 'Vishnupad Temple' in Gaya?",
+    "options": ["Harsha", "Ashoka", "Rani Ahilyabai Holkar", "Chandragupta Maurya"],
+    "answer": "C",
+    "tag": "Ancient History",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 23,
+    "question": "India's first ethanol plant was inaugurated in 2022 in:",
+    "options": ["Punjab", "Bihar", "Maharashtra", "Gujarat"],
+    "answer": "B",
+    "tag": "Current Affairs",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 24,
+    "question": "The 'Kaimur Range' is part of which mountain system?",
+    "options": ["Himalayas", "Vindhyas", "Aravalis", "Satpuras"],
+    "answer": "B",
+    "tag": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 25,
+    "question": "Which Mughal emperor built 'Sher Shah Suri's Tomb' in Sasaram?",
+    "options": ["Akbar", "Humayun", "Shah Jahan", "Aurangzeb"],
+    "answer": "A",
+    "tag": "Medieval History",
+    "difficulty": "Medium"
+  },
+
+  {
+    "id": 26,
+    "question": "The 'Pradhan Mantri Matru Vandana Yojana' provides benefits for:",
+    "options": ["Girl child education", "Maternity leave compensation", "Women entrepreneurs", "Widow pension"],
+    "answer": "B",
+    "tag": "Economics",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 27,
+    "question": "Bihar's 'Sonepur Cattle Fair' is held on the banks of:",
+    "options": ["Ganga", "Gandak", "Kosi", "Son"],
+    "answer": "B",
+    "tag": "Bihar Special Culture",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 28,
+    "question": "The 'National Green Tribunal' was established in:",
+    "options": ["2000", "2005", "2010", "2015"],
+    "answer": "C",
+    "tag": "Polity",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 29,
+    "question": "Which vitamin is synthesized by gut bacteria?",
+    "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+    "answer": "D",
+    "tag": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 30,
+    "question": "The 'Battle of Chausa' (1539) was fought between:",
+    "options": ["Akbar and Hemu", "Babur and Ibrahim Lodi", "Sher Shah Suri and Humayun", "Prithviraj Chauhan and Muhammad Ghori"],
+    "answer": "C",
+    "tag": "Medieval History",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 31,
+    "question": "Which of the following is NOT a Fundamental Right under the Indian Constitution?",
+    "options": ["Right to Equality", "Right to Property", "Right to Freedom of Religion", "Right to Constitutional Remedies"],
+    "answer": "B",
+    "tag": "Polity",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 32,
+    "question": "The 'Satyagraha Movement' in Champaran was related to:",
+    "options": ["Indigo planters", "Salt tax", "Cotton farmers", "Land revenue"],
+    "answer": "A",
+    "tag": "Modern History",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 33,
+    "question": "Which river originates from the Amarkantak Plateau?",
+    "options": ["Son", "Gandak", "Kosi", "Bagmati"],
+    "answer": "A",
+    "tag": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 34,
+    "question": "The 'Pradhan Mantri Fasal Bima Yojana' covers risks related to:",
+    "options": ["Crop failure", "Livestock diseases", "Farm equipment damage", "Soil erosion"],
+    "answer": "A",
+    "tag": "Economics",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 35,
+    "question": "The 'Vikramshila University' was established by:",
+    "options": ["Harsha", "Dharmapala", "Ashoka", "Chandragupta II"],
+    "answer": "B",
+    "tag": "Ancient History",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 36,
+    "question": "Which district of Bihar is known for its silk production (Tussar Silk)?",
+    "options": ["Bhagalpur", "Gaya", "Muzaffarpur", "Darbhanga"],
+    "answer": "A",
+    "tag": "Bihar Special Culture",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 37,
+    "question": "The 'National Food Security Act' guarantees subsidized food grains to:",
+    "options": ["50% of urban population", "75% of rural population", "67% of total population", "100% of BPL families"],
+    "answer": "C",
+    "tag": "Polity",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 38,
+    "question": "The 'Jaya Prakash Narayan International Airport' is located in:",
+    "options": ["Patna", "Gaya", "Darbhanga", "Muzaffarpur"],
+    "answer": "A",
+    "tag": "Bihar Special Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 39,
+    "question": "Which Gupta ruler issued the 'Iron Pillar Inscription' at Mehrauli?",
+    "options": ["Chandragupta I", "Samudragupta", "Chandragupta II", "Skandagupta"],
+    "answer": "C",
+    "tag": "Ancient History",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 40,
+    "question": "The 'MGNREGA' guarantees employment for at least:",
+    "options": ["60 days/year", "100 days/year", "150 days/year", "200 days/year"],
+    "answer": "B",
+    "tag": "Economics",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 41,
+    "question": "The 'Gandak River' originates from:",
+    "options": ["Tibet", "Nepal", "Uttarakhand", "Himachal Pradesh"],
+    "answer": "B",
+    "tag": "Geography",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 42,
+    "question": "The 'Bihar Diwas' is celebrated on:",
+    "options": ["22 March", "15 November", "26 January", "2 October"],
+    "answer": "A",
+    "tag": "Bihar Special Culture",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 43,
+    "question": "The 'Panchayati Raj System' was first implemented in:",
+    "options": ["Rajasthan", "Bihar", "Kerala", "West Bengal"],
+    "answer": "A",
+    "tag": "Polity",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 44,
+    "question": "The 'Buddhist Council' held during the reign of Ashoka was at:",
+    "options": ["Rajgir", "Pataliputra", "Vaishali", "Kushinagar"],
+    "answer": "B",
+    "tag": "Ancient History",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 45,
+    "question": "Which of these is a Rabi crop in Bihar?",
+    "options": ["Rice", "Maize", "Wheat", "Sugarcane"],
+    "answer": "C",
+    "tag": "Bihar Special Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 46,
+    "question": "The 'Right to Information Act' was passed in:",
+    "options": ["2000", "2005", "2010", "2015"],
+    "answer": "B",
+    "tag": "Polity",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 47,
+    "question": "The 'Chhath Puja' is dedicated to:",
+    "options": ["Lord Shiva", "Goddess Durga", "Sun God", "Lord Vishnu"],
+    "answer": "C",
+    "tag": "Bihar Special Culture",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 48,
+    "question": "The 'Kosi River' is also known as:",
+    "options": ["Sorrow of Bihar", "Lifeline of Bihar", "Blue River", "Golden River"],
+    "answer": "A",
+    "tag": "Geography",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 49,
+    "question": "The 'Harappan site' of Alamgirpur is located in:",
+    "options": ["Punjab", "Gujarat", "Uttar Pradesh", "Rajasthan"],
+    "answer": "C",
+    "tag": "Ancient History",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 50,
+    "question": "The 'National Rural Livelihood Mission' aims to:",
+    "options": ["Provide housing", "Promote self-employment", "Ensure food security", "Improve sanitation"],
+    "answer": "B",
+    "tag": "Economics",
+    "difficulty": "Easy"
+  },
+   {
+  "id": 51,
+  "question": "The 'Mahabodhi Temple' is located in:",
+  "options": ["Bodh Gaya", "Rajgir", "Nalanda", "Vaishali"],
+  "answer": "A",
+  "tag": "Bihar Special Culture",
+  "difficulty": "Easy"
+},
 {
-  "exam": "69th BPSC Prelims",
-  "set": "A",
-  "year": 2023,
-  "total_questions": 150,
-  "batch_1": [
-    {
-      "id": 1,
-      "question": "The Maithili language developed during the reign of which dynasty?",
-      "options": {
-        "A": "Chero dynasty",
-        "B": "Oiniwar dynasty",
-        "C": "Karnat dynasty",
-        "D": "Pithipatis"
-      },
-      "answer": "C",
-      "tag": "Medieval History"
-    },
-    {
-      "id": 2,
-      "question": "Head of Russia's Wagner Mercenary Group was:",
-      "options": {
-        "A": "Sergei Shoigu",
-        "B": "Yevgeny Prigozhin",
-        "C": "Aleksandr Lukashenko",
-        "D": "Volodymyr Zelenskyy"
-      },
-      "answer": "B",
-      "tag": "Current Affairs"
-    },
-    {
-      "id": 3,
-      "question": "Which pair is correctly matched? 1. Anorexia: Sleep disorder 2. Insomnia: Eating disorder 3. Dyspnoea: Shortness of breath 4. Anosmia: Loss of smell",
-      "options": {
-        "A": "Only 1 and 2",
-        "B": "Only 2 and 3",
-        "C": "Only 3 and 4",
-        "D": "All of the above"
-      },
-      "answer": "C",
-      "tag": "Science"
-    },
-    {
-      "id": 4,
-      "question": "Who founded the Patna School of Painting in the 18th century?",
-      "options": {
-        "A": "Mukul Roy",
-        "B": "Kalu Ram",
-        "C": "Ashtapad",
-        "D": "Lakshmi Narayan"
-      },
-      "answer": "B",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 5,
-      "question": "Which river forms the 'Triveni Sangam' with Ganga and Yamuna in Allahabad?",
-      "options": {
-        "A": "Gandak",
-        "B": "Kosi",
-        "C": "Saraswati",
-        "D": "Son"
-      },
-      "answer": "C",
-      "tag": "Geography"
-    },
-    {
-      "id": 6,
-      "question": "The 'Bhoodan Movement' in Bihar was led by:",
-      "options": {
-        "A": "Jayaprakash Narayan",
-        "B": "Vinoba Bhave",
-        "C": "Ram Manohar Lohia",
-        "D": "Karpoori Thakur"
-      },
-      "answer": "B",
-      "tag": "Modern History"
-    },
-    {
-      "id": 7,
-      "question": "Which district of Bihar is known for 'Madhubani Painting'?",
-      "options": {
-        "A": "Darbhanga",
-        "B": "Madhubani",
-        "C": "Sitamarhi",
-        "D": "Samastipur"
-      },
-      "answer": "B",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 8,
-      "question": "The concept of 'Judicial Review' in the Indian Constitution is borrowed from:",
-      "options": {
-        "A": "UK",
-        "B": "USA",
-        "C": "Canada",
-        "D": "Australia"
-      },
-      "answer": "B",
-      "tag": "Polity"
-    },
-    {
-      "id": 9,
-      "question": "Which of these is a Kharif crop in Bihar?",
-      "options": {
-        "A": "Wheat",
-        "B": "Mustard",
-        "C": "Rice",
-        "D": "Barley"
-      },
-      "answer": "C",
-      "tag": "Bihar Special Geography"
-    },
-    {
-      "id": 10,
-      "question": "The ruins of Nalanda University are located in which modern-day district?",
-      "options": {
-        "A": "Patna",
-        "B": "Gaya",
-        "C": "Nalanda",
-        "D": "Rajgir"
-      },
-      "answer": "C",
-      "tag": "Ancient History"
-    },
-    {
-      "id": 11,
-      "question": "Who was the first Chief Minister of Bihar?",
-      "options": {
-        "A": "Anugrah Narayan Sinha",
-        "B": "Sri Krishna Singh",
-        "C": "K.B. Sahay",
-        "D": "Binodanand Jha"
-      },
-      "answer": "B",
-      "tag": "Modern History"
-    },
-    {
-      "id": 12,
-      "question": "The 'Pradhan Mantri Kisan Samman Nidhi' provides direct income support of:",
-      "options": {
-        "A": "₹2,000/year",
-        "B": "₹6,000/year",
-        "C": "₹10,000/year",
-        "D": "₹12,000/year"
-      },
-      "answer": "B",
-      "tag": "Economics"
-    },
-    {
-      "id": 13,
-      "question": "Which Gupta ruler is known as 'Napoleon of India'?",
-      "options": {
-        "A": "Chandragupta I",
-        "B": "Samudragupta",
-        "C": "Chandragupta II",
-        "D": "Skandagupta"
-      },
-      "answer": "B",
-      "tag": "Ancient History"
-    },
-    {
-      "id": 14,
-      "question": "Bihar's first wildlife sanctuary is:",
-      "options": {
-        "A": "Valmiki National Park",
-        "B": "Bhimbandh Sanctuary",
-        "C": "Gautam Budha Wildlife Sanctuary",
-        "D": "Pant Wildlife Sanctuary"
-      },
-      "answer": "A",
-      "tag": "Bihar Special Geography"
-    },
-    {
-      "id": 15,
-      "question": "The 'Right to Education' was added to the Constitution under Article:",
-      "options": {
-        "A": "21A",
-        "B": "45",
-        "C": "51A",
-        "D": "32"
-      },
-      "answer": "A",
-      "tag": "Polity"
-    },
-    {
-      "id": 16,
-      "question": "Which of these is NOT a folk dance of Bihar?",
-      "options": {
-        "A": "Jat-Jatin",
-        "B": "Jhijhiya",
-        "C": "Paika",
-        "D": "Garba"
-      },
-      "answer": "D",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 17,
-      "question": "The 'Chipko Movement' was primarily associated with:",
-      "options": {
-        "A": "Water conservation",
-        "B": "Forest conservation",
-        "C": "Women's education",
-        "D": "Tribal rights"
-      },
-      "answer": "B",
-      "tag": "Modern History"
-    },
-    {
-      "id": 18,
-      "question": "Bihar shares its longest border with which state?",
-      "options": {
-        "A": "Uttar Pradesh",
-        "B": "Jharkhand",
-        "C": "West Bengal",
-        "D": "Nepal"
-      },
-      "answer": "A",
-      "tag": "Geography"
-    },
-    {
-      "id": 19,
-      "question": "The 'Hajong' tribe is primarily found in:",
-      "options": {
-        "A": "Bihar",
-        "B": "Assam",
-        "C": "Nagaland",
-        "D": "Chhattisgarh"
-      },
-      "answer": "B",
-      "tag": "Current Affairs"
-    },
-    {
-      "id": 20,
-      "question": "Which river is known as 'Sorrow of Bihar'?",
-      "options": {
-        "A": "Ganga",
-        "B": "Kosi",
-        "C": "Gandak",
-        "D": "Bagmati"
-      },
-      "answer": "B",
-      "tag": "Bihar Special Geography"
-    },
-    {
-      "id": 21,
-      "question": "The 'Directive Principles of State Policy' are inspired by the Constitution of:",
-      "options": {
-        "A": "USA",
-        "B": "Ireland",
-        "C": "Canada",
-        "D": "Australia"
-      },
-      "answer": "B",
-      "tag": "Polity"
-    },
-    {
-      "id": 22,
-      "question": "Who built the 'Vishnupad Temple' in Gaya?",
-      "options": {
-        "A": "Harsha",
-        "B": "Ashoka",
-        "C": "Rani Ahilyabai Holkar",
-        "D": "Chandragupta Maurya"
-      },
-      "answer": "C",
-      "tag": "Ancient History"
-    },
-    {
-      "id": 23,
-      "question": "India's first ethanol plant was inaugurated in 2022 in:",
-      "options": {
-        "A": "Punjab",
-        "B": "Bihar",
-        "C": "Maharashtra",
-        "D": "Gujarat"
-      },
-      "answer": "B",
-      "tag": "Current Affairs"
-    },
-    {
-      "id": 24,
-      "question": "The 'Kaimur Range' is part of which mountain system?",
-      "options": {
-        "A": "Himalayas",
-        "B": "Vindhyas",
-        "C": "Aravalis",
-        "D": "Satpuras"
-      },
-      "answer": "B",
-      "tag": "Geography"
-    },
-    {
-      "id": 25,
-      "question": "Which Mughal emperor built 'Sher Shah Suri's Tomb' in Sasaram?",
-      "options": {
-        "A": "Akbar",
-        "B": "Humayun",
-        "C": "Shah Jahan",
-        "D": "Aurangzeb"
-      },
-      "answer": "A",
-      "tag": "Medieval History"
-    },
-    {
-      "id": 26,
-      "question": "The 'Pradhan Mantri Matru Vandana Yojana' provides benefits for:",
-      "options": {
-        "A": "Girl child education",
-        "B": "Maternity leave compensation",
-        "C": "Women entrepreneurs",
-        "D": "Widow pension"
-      },
-      "answer": "B",
-      "tag": "Economics"
-    },
-    {
-      "id": 27,
-      "question": "Bihar's 'Sonepur Cattle Fair' is held on the banks of:",
-      "options": {
-        "A": "Ganga",
-        "B": "Gandak",
-        "C": "Kosi",
-        "D": "Son"
-      },
-      "answer": "B",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 28,
-      "question": "The 'National Green Tribunal' was established in:",
-      "options": {
-        "A": "2000",
-        "B": "2005",
-        "C": "2010",
-        "D": "2015"
-      },
-      "answer": "C",
-      "tag": "Polity"
-    },
-    {
-      "id": 29,
-      "question": "Which vitamin is synthesized by gut bacteria?",
-      "options": {
-        "A": "Vitamin A",
-        "B": "Vitamin C",
-        "C": "Vitamin D",
-        "D": "Vitamin K"
-      },
-      "answer": "D",
-      "tag": "Science"
-    },
-    {
-      "id": 30,
-      "question": "The 'Battle of Chausa' (1539) was fought between:",
-      "options": {
-        "A": "Akbar and Hemu",
-        "B": "Babur and Ibrahim Lodi",
-        "C": "Sher Shah Suri and Humayun",
-        "D": "Prithviraj Chauhan and Muhammad Ghori"
-      },
-      "answer": "C",
-      "tag": "Medieval History"
-    },
-    {
-      "id": 31,
-      "question": "Which of the following is NOT a Fundamental Right under the Indian Constitution?",
-      "options": {
-        "A": "Right to Equality",
-        "B": "Right to Property",
-        "C": "Right to Freedom of Religion",
-        "D": "Right to Constitutional Remedies"
-      },
-      "answer": "B",
-      "tag": "Polity"
-    },
-    {
-      "id": 32,
-      "question": "The 'Satyagraha Movement' in Champaran was related to:",
-      "options": {
-        "A": "Indigo planters",
-        "B": "Salt tax",
-        "C": "Cotton farmers",
-        "D": "Land revenue"
-      },
-      "answer": "A",
-      "tag": "Modern History"
-    },
-    {
-      "id": 33,
-      "question": "Which river originates from the Amarkantak Plateau?",
-      "options": {
-        "A": "Son",
-        "B": "Gandak",
-        "C": "Kosi",
-        "D": "Bagmati"
-      },
-      "answer": "A",
-      "tag": "Geography"
-    },
-    {
-      "id": 34,
-      "question": "The 'Pradhan Mantri Fasal Bima Yojana' covers risks related to:",
-      "options": {
-        "A": "Crop failure",
-        "B": "Livestock diseases",
-        "C": "Farm equipment damage",
-        "D": "Soil erosion"
-      },
-      "answer": "A",
-      "tag": "Economics"
-    },
-    {
-      "id": 35,
-      "question": "The 'Vikramshila University' was established by:",
-      "options": {
-        "A": "Harsha",
-        "B": "Dharmapala",
-        "C": "Ashoka",
-        "D": "Chandragupta II"
-      },
-      "answer": "B",
-      "tag": "Ancient History"
-    },
-    {
-      "id": 36,
-      "question": "Which district of Bihar is known for its silk production (Tussar Silk)?",
-      "options": {
-        "A": "Bhagalpur",
-        "B": "Gaya",
-        "C": "Muzaffarpur",
-        "D": "Darbhanga"
-      },
-      "answer": "A",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 37,
-      "question": "The 'National Food Security Act' guarantees subsidized food grains to:",
-      "options": {
-        "A": "50% of urban population",
-        "B": "75% of rural population",
-        "C": "67% of total population",
-        "D": "100% of BPL families"
-      },
-      "answer": "C",
-      "tag": "Polity"
-    },
-    {
-      "id": 38,
-      "question": "The 'Jaya Prakash Narayan International Airport' is located in:",
-      "options": {
-        "A": "Patna",
-        "B": "Gaya",
-        "C": "Darbhanga",
-        "D": "Muzaffarpur"
-      },
-      "answer": "A",
-      "tag": "Bihar Special Geography"
-    },
-    {
-      "id": 39,
-      "question": "Which Gupta ruler issued the 'Iron Pillar Inscription' at Mehrauli?",
-      "options": {
-        "A": "Chandragupta I",
-        "B": "Samudragupta",
-        "C": "Chandragupta II",
-        "D": "Skandagupta"
-      },
-      "answer": "C",
-      "tag": "Ancient History"
-    },
-    {
-      "id": 40,
-      "question": "The 'MGNREGA' guarantees employment for at least:",
-      "options": {
-        "A": "60 days/year",
-        "B": "100 days/year",
-        "C": "150 days/year",
-        "D": "200 days/year"
-      },
-      "answer": "B",
-      "tag": "Economics"
-    },
-    {
-      "id": 41,
-      "question": "The 'Gandak River' originates from:",
-      "options": {
-        "A": "Tibet",
-        "B": "Nepal",
-        "C": "Uttarakhand",
-        "D": "Himachal Pradesh"
-      },
-      "answer": "B",
-      "tag": "Geography"
-    },
-    {
-      "id": 42,
-      "question": "The 'Bihar Diwas' is celebrated on:",
-      "options": {
-        "A": "22 March",
-        "B": "15 November",
-        "C": "26 January",
-        "D": "2 October"
-      },
-      "answer": "A",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 43,
-      "question": "The 'Panchayati Raj System' was first implemented in:",
-      "options": {
-        "A": "Rajasthan",
-        "B": "Bihar",
-        "C": "Kerala",
-        "D": "West Bengal"
-      },
-      "answer": "A",
-      "tag": "Polity"
-    },
-    {
-      "id": 44,
-      "question": "The 'Buddhist Council' held during the reign of Ashoka was at:",
-      "options": {
-        "A": "Rajgir",
-        "B": "Pataliputra",
-        "C": "Vaishali",
-        "D": "Kushinagar"
-      },
-      "answer": "B",
-      "tag": "Ancient History"
-    },
-    {
-      "id": 45,
-      "question": "Which of these is a Rabi crop in Bihar?",
-      "options": {
-        "A": "Rice",
-        "B": "Maize",
-        "C": "Wheat",
-        "D": "Sugarcane"
-      },
-      "answer": "C",
-      "tag": "Bihar Special Geography"
-    },
-    {
-      "id": 46,
-      "question": "The 'Right to Information Act' was passed in:",
-      "options": {
-        "A": "2000",
-        "B": "2005",
-        "C": "2010",
-        "D": "2015"
-      },
-      "answer": "B",
-      "tag": "Polity"
-    },
-    {
-      "id": 47,
-      "question": "The 'Chhath Puja' is dedicated to:",
-      "options": {
-        "A": "Lord Shiva",
-        "B": "Goddess Durga",
-        "C": "Sun God",
-        "D": "Lord Vishnu"
-      },
-      "answer": "C",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 48,
-      "question": "The 'Kosi River' is also known as:",
-      "options": {
-        "A": "Sorrow of Bihar",
-        "B": "Lifeline of Bihar",
-        "C": "Blue River",
-        "D": "Golden River"
-      },
-      "answer": "A",
-      "tag": "Geography"
-    },
-    {
-      "id": 49,
-      "question": "The 'Harappan site' of Alamgirpur is located in:",
-      "options": {
-        "A": "Punjab",
-        "B": "Gujarat",
-        "C": "Uttar Pradesh",
-        "D": "Rajasthan"
-      },
-      "answer": "C",
-      "tag": "Ancient History"
-    },
-    {
-      "id": 50,
-      "question": "The 'National Rural Livelihood Mission' aims to:",
-      "options": {
-        "A": "Provide housing",
-        "B": "Promote self-employment",
-        "C": "Ensure food security",
-        "D": "Improve sanitation"
-      },
-      "answer": "B",
-      "tag": "Economics"
-    },
-    {
-      "id": 51,
-      "question": "The 'Mahabodhi Temple' is located in:",
-      "options": {
-        "A": "Bodh Gaya",
-        "B": "Rajgir",
-        "C": "Nalanda",
-        "D": "Vaishali"
-      },
-      "answer": "A",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 52,
-      "question": "The 'Directive Principles of State Policy' are contained in Part ___ of the Indian Constitution.",
-      "options": {
-        "A": "III",
-        "B": "IV",
-        "C": "V",
-        "D": "VI"
-      },
-      "answer": "B",
-      "tag": "Polity"
-    },
-    {
-      "id": 53,
-      "question": "The 'Battle of Buxar' was fought in:",
-      "options": {
-        "A": "1764",
-        "B": "1757",
-        "C": "1782",
-        "D": "1799"
-      },
-      "answer": "A",
-      "tag": "Modern History"
-    },
-    {
-      "id": 54,
-      "question": "The 'Rajgir Dance Festival' is associated with:",
-      "options": {
-        "A": "Classical dance",
-        "B": "Folk dance",
-        "C": "Tribal dance",
-        "D": "Martial arts"
-      },
-      "answer": "A",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 55,
-      "question": "The 'Green Revolution' in India was primarily focused on:",
-      "options": {
-        "A": "Rice and Wheat",
-        "B": "Pulses and Oilseeds",
-        "C": "Cotton and Jute",
-        "D": "Sugarcane and Tea"
-      },
-      "answer": "A",
-      "tag": "Economics"
-    },
-    {
-      "id": 56,
-      "question": "The 'Pataliputra' was the capital of which ancient empire?",
-      "options": {
-        "A": "Maurya",
-        "B": "Gupta",
-        "C": "Harsha",
-        "D": "All of the above"
-      },
-      "answer": "D",
-      "tag": "Ancient History"
-    },
-    {
-      "id": 57,
-      "question": "The 'Sultanpur Bird Sanctuary' is located in:",
-      "options": {
-        "A": "Bihar",
-        "B": "Uttar Pradesh",
-        "C": "Haryana",
-        "D": "Rajasthan"
-      },
-      "answer": "C",
-      "tag": "Geography"
-    },
-    {
-      "id": 58,
-      "question": "The 'Bihar Museum' is located in:",
-      "options": {
-        "A": "Patna",
-        "B": "Gaya",
-        "C": "Nalanda",
-        "D": "Muzaffarpur"
-      },
-      "answer": "A",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 59,
-      "question": "The 'National Education Policy 2020' aims to achieve 100% GER in school education by:",
-      "options": {
-        "A": "2025",
-        "B": "2030",
-        "C": "2035",
-        "D": "2040"
-      },
-      "answer": "B",
-      "tag": "Current Affairs"
-    },
-    {
-      "id": 60,
-      "question": "The 'Ashoka Pillar' at Sarnath has the capital of:",
-      "options": {
-        "A": "Bull",
-        "B": "Elephant",
-        "C": "Lion",
-        "D": "Horse"
-      },
-      "answer": "C",
-      "tag": "Ancient History"
-    },
-    
-    {
-      "id": 61,
-      "question": "The 'Kaimur Wildlife Sanctuary' is located in which district of Bihar?",
-      "options": {
-        "A": "Rohtas",
-        "B": "Kaimur",
-        "C": "Aurangabad",
-        "D": "Gaya"
-      },
-      "answer": "B",
-      "tag": "Bihar Special Geography"
-    },
-    {
-      "id": 62,
-      "question": "The 'National Rural Health Mission' was launched in:",
-      "options": {
-        "A": "2000",
-        "B": "2005",
-        "C": "2010",
-        "D": "2015"
-      },
-      "answer": "B",
-      "tag": "Polity"
-    },
-    {
-      "id": 63,
-      "question": "Which ruler built the 'Golghar' in Patna?",
-      "options": {
-        "A": "Sher Shah Suri",
-        "B": "British East India Company",
-        "C": "Ashoka",
-        "D": "Chandragupta Maurya"
-      },
-      "answer": "B",
-      "tag": "Modern History"
-    },
-    {
-      "id": 64,
-      "question": "The 'Pradhan Mantri Ujjwala Yojana' provides:",
-      "options": {
-        "A": "Free electricity",
-        "B": "LPG connections",
-        "C": "Housing loans",
-        "D": "Health insurance"
-      },
-      "answer": "B",
-      "tag": "Economics"
-    },
-    {
-      "id": 65,
-      "question": "The 'Vikramashila Gangetic Dolphin Sanctuary' is located on which river?",
-      "options": {
-        "A": "Ganga",
-        "B": "Gandak",
-        "C": "Kosi",
-        "D": "Son"
-      },
-      "answer": "A",
-      "tag": "Geography"
-    },
-    {
-      "id": 66,
-      "question": "The 'Buddha Relics' excavated from Piprahwa (Uttar Pradesh) are associated with which dynasty?",
-      "options": {
-        "A": "Maurya",
-        "B": "Shakya",
-        "C": "Gupta",
-        "D": "Kushana"
-      },
-      "answer": "B",
-      "tag": "Ancient History"
-    },
-    {
-      "id": 67,
-      "question": "The 'Jal Jeevan Hariyali Mission' is an initiative of which state?",
-      "options": {
-        "A": "Bihar",
-        "B": "Uttar Pradesh",
-        "C": "Madhya Pradesh",
-        "D": "Rajasthan"
-      },
-      "answer": "A",
-      "tag": "Current Affairs"
-    },
-    {
-      "id": 68,
-      "question": "The 'First Round Table Conference' was held in:",
-      "options": {
-        "A": "1929",
-        "B": "1930",
-        "C": "1931",
-        "D": "1932"
-      },
-      "answer": "B",
-      "tag": "Modern History"
-    },
-    {
-      "id": 69,
-      "question": "Which of these is a tributary of the Ganga in Bihar?",
-      "options": {
-        "A": "Yamuna",
-        "B": "Ghaghara",
-        "C": "Gandak",
-        "D": "Betwa"
-      },
-      "answer": "C",
-      "tag": "Geography"
-    },
-    {
-      "id": 70,
-      "question": "The 'Bihar Lokayukta Act' was passed in:",
-      "options": {
-        "A": "1974",
-        "B": "1985",
-        "C": "2011",
-        "D": "2019"
-      },
-      "answer": "A",
-      "tag": "Polity"
-    },
-    {
-      "id": 71,
-      "question": "The 'Sonepur Mela' is held during which Hindu month?",
-      "options": {
-        "A": "Chaitra",
-        "B": "Kartik",
-        "C": "Magh",
-        "D": "Bhadra"
-      },
-      "answer": "B",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 72,
-      "question": "The 'Pradhan Mantri Awas Yojana-Gramin' aims to provide housing by:",
-      "options": {
-        "A": "2022",
-        "B": "2024",
-        "C": "2026",
-        "D": "2030"
-      },
-      "answer": "B",
-      "tag": "Economics"
-    },
-    {
-      "id": 73,
-      "question": "The 'Nalanda Mahavihara' was destroyed by:",
-      "options": {
-        "A": "Muhammad Ghori",
-        "B": "Bakhtiyar Khilji",
-        "C": "Timur",
-        "D": "Nadir Shah"
-      },
-      "answer": "B",
-      "tag": "Medieval History"
-    },
-    {
-      "id": 74,
-      "question": "The 'Bihar Industrial Investment Promotion Policy' was announced in:",
-      "options": {
-        "A": "2015",
-        "B": "2016",
-        "C": "2019",
-        "D": "2021"
-      },
-      "answer": "B",
-      "tag": "Current Affairs"
-    },
-    {
-      "id": 75,
-      "question": "The 'Gandhi Setu' connects Patna to:",
-      "options": {
-        "A": "Hajipur",
-        "B": "Sonepur",
-        "C": "Munger",
-        "D": "Bhagalpur"
-      },
-      "answer": "A",
-      "tag": "Bihar Special Geography"
-    },
-    {
-      "id": 76,
-      "question": "The 'Indian National Congress' was founded in:",
-      "options": {
-        "A": "1885",
-        "B": "1905",
-        "C": "1919",
-        "D": "1920"
-      },
-      "answer": "A",
-      "tag": "Modern History"
-    },
-    {
-      "id": 77,
-      "question": "The 'Bihar State Tourism Development Corporation' was established in:",
-      "options": {
-        "A": "1974",
-        "B": "1980",
-        "C": "1995",
-        "D": "2005"
-      },
-      "answer": "B",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 78,
-      "question": "The 'National Food Security Act' was passed in:",
-      "options": {
-        "A": "2005",
-        "B": "2010",
-        "C": "2013",
-        "D": "2015"
-      },
-      "answer": "C",
-      "tag": "Polity"
-    },
-    {
-      "id": 79,
-      "question": "The 'Buddhist Stupa' at Kesaria is the tallest in the world and is located in:",
-      "options": {
-        "A": "West Champaran",
-        "B": "East Champaran",
-        "C": "Muzaffarpur",
-        "D": "Vaishali"
-      },
-      "answer": "B",
-      "tag": "Ancient History"
-    },
-    {
-      "id": 80,
-      "question": "The 'Bihar Foundation Day' is celebrated on:",
-      "options": {
-        "A": "15 November",
-        "B": "22 March",
-        "C": "1 April",
-        "D": "26 January"
-      },
-      "answer": "B",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 81,
-      "question": "The 'Rajgir Mahotsav' is a festival of:",
-      "options": {
-        "A": "Classical dance and music",
-        "B": "Folk arts",
-        "C": "Tribal culture",
-        "D": "Yoga and spirituality"
-      },
-      "answer": "A",
-      "tag": "Bihar Special Culture"
-    },
-    {
-      "id": 82,
-      "question": "The 'Bihar Agricultural University' is located in:",
-      "options": {
-        "A": "Sabour",
-        "B": "Pusa",
-        "C": "Dholi",
-        "D": "Motihari"
-      },
-      "answer": "A",
-      "tag": "Bihar Special Geography"
-    },
-    {
-      "id": 83,
-      "question": "The 'Kosi Mahasetu' connects Bihar to:",
-      "options": {
-        "A": "Nepal",
-        "B": "Jharkhand",
-        "C": "Uttar Pradesh",
-        "D": "West Bengal"
-      },
-      "answer": "A",
-      "tag": "Geography"
-    },
-    {
-      "id": 84,
-      "question": "The 'Bihar Museum Biennale' was first held in:",
-      "options": {
-        "A": "2015",
-        "B": "2018",
-        "C": "2020",
-        "D": "2022"
-      },
-      "answer": "B",
-      "tag": "Current Affairs"
-    },
-    {
-      "id": 85,
-      "question": "The 'Patna High Court' was established in:",
-      "options": {
-        "A": "1912",
-        "B": "1916",
-        "C": "1920",
-        "D": "1936"
-      },
-      "answer": "B",
-      "tag": "Polity"
-    },
-    {
-      "id": 86,
-      "question": "The 'Bihar Diwas' commemorates the state's separation from:",
-      "options": {
-        "A": "Bengal",
-        "B": "Odisha",
-        "C": "Jharkhand",
-        "D": "Uttar Pradesh"
-      },
-      "answer": "A",
-      "tag": "Modern History"
-    },
-    {
-      "id": 87,
-      "question": "The 'Gaya International Airport' is also known as:",
-      "options": {
-        "A": "Jayaprakash Narayan Airport",
-        "B": "Bodhgaya Airport",
-        "C": "Nalanda Airport",
-        "D": "Magadh Airport"
-      },
-      "answer": "B",
-      "tag": "Bihar Special Geography"
-    },
-    {
-      "id": 88,
-      "question": "The 'Bihar State Power Holding Company Limited' was formed in:",
-      "options": {
-        "A": "2005",
-        "B": "2010",
-        "C": "2012",
-        "D": "2015"
-      },
-      "answer": "C",
-      "tag": "Current Affairs"
-    },
-    {
-      "id": 89,
-      "question": "The 'Chandragupta Institute of Management' is located in:",
-      "options": {
-        "A": "Patna",
-        "B": "Gaya",
-        "C": "Muzaffarpur",
-        "D": "Darbhanga"
-      },
-      "answer": "A",
-      "tag": "Bihar Special Geography"
-    },
-    {
-      "id": 90,
-      "question": "The 'Bihar State Board of Religious Trusts' was established in:",
-      "options": {
-        "A": "1950",
-        "B": "1960",
-        "C": "1971",
-        "D": "1985"
-      },
-      "answer": "B",
-      "tag": "Polity"
-    }
+  "id": 52,
+  "question": "The 'Directive Principles of State Policy' are contained in Part ___ of the Indian Constitution.",
+  "options": ["III", "IV", "V", "VI"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "Easy"
+},
+{
+  "id": 53,
+  "question": "The 'Battle of Buxar' was fought in:",
+  "options": ["1764", "1757", "1782", "1799"],
+  "answer": "A",
+  "tag": "Modern History",
+  "difficulty": "Easy"
+},
+{
+  "id": 54,
+  "question": "The 'Rajgir Dance Festival' is associated with:",
+  "options": ["Classical dance", "Folk dance", "Tribal dance", "Martial arts"],
+  "answer": "A",
+  "tag": "Bihar Special Culture",
+  "difficulty": "Medium"
+},
+{
+  "id": 55,
+  "question": "The 'Green Revolution' in India was primarily focused on:",
+  "options": ["Rice and Wheat", "Pulses and Oilseeds", "Cotton and Jute", "Sugarcane and Tea"],
+  "answer": "A",
+  "tag": "Economics",
+  "difficulty": "Easy"
+},
+{
+  "id": 56,
+  "question": "The 'Pataliputra' was the capital of which ancient empire?",
+  "options": ["Maurya", "Gupta", "Harsha", "All of the above"],
+  "answer": "D",
+  "tag": "Ancient History",
+  "difficulty": "Medium"
+},
+{
+  "id": 57,
+  "question": "The 'Sultanpur Bird Sanctuary' is located in:",
+  "options": ["Bihar", "Uttar Pradesh", "Haryana", "Rajasthan"],
+  "answer": "C",
+  "tag": "Geography",
+  "difficulty": "Easy"
+},
+{
+  "id": 58,
+  "question": "The 'Bihar Museum' is located in:",
+  "options": ["Patna", "Gaya", "Nalanda", "Muzaffarpur"],
+  "answer": "A",
+  "tag": "Bihar Special Culture",
+  "difficulty": "Easy"
+},
+{
+  "id": 59,
+  "question": "The 'National Education Policy 2020' aims to achieve 100% GER in school education by:",
+  "options": ["2025", "2030", "2035", "2040"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 60,
+  "question": "The 'Ashoka Pillar' at Sarnath has the capital of:",
+  "options": ["Bull", "Elephant", "Lion", "Horse"],
+  "answer": "C",
+  "tag": "Ancient History",
+  "difficulty": "Easy"
+},
+{
+  "id": 61,
+  "question": "The 'Kaimur Wildlife Sanctuary' is located in which district of Bihar?",
+  "options": ["Rohtas", "Kaimur", "Aurangabad", "Gaya"],
+  "answer": "B",
+  "tag": "Bihar Special Geography",
+  "difficulty": "Medium"
+},
+{
+  "id": 62,
+  "question": "The 'National Rural Health Mission' was launched in:",
+  "options": ["2000", "2005", "2010", "2015"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "Easy"
+},
+{
+  "id": 63,
+  "question": "Which ruler built the 'Golghar' in Patna?",
+  "options": ["Sher Shah Suri", "British East India Company", "Ashoka", "Chandragupta Maurya"],
+  "answer": "B",
+  "tag": "Modern History",
+  "difficulty": "Medium"
+},
+{
+  "id": 64,
+  "question": "The 'Pradhan Mantri Ujjwala Yojana' provides:",
+  "options": ["Free electricity", "LPG connections", "Housing loans", "Health insurance"],
+  "answer": "B",
+  "tag": "Economics",
+  "difficulty": "Easy"
+},
+{
+  "id": 65,
+  "question": "The 'Vikramashila Gangetic Dolphin Sanctuary' is located on which river?",
+  "options": ["Ganga", "Gandak", "Kosi", "Son"],
+  "answer": "A",
+  "tag": "Geography",
+  "difficulty": "Medium"
+},
+{
+  "id": 66,
+  "question": "The 'Buddha Relics' excavated from Piprahwa (Uttar Pradesh) are associated with which dynasty?",
+  "options": ["Maurya", "Shakya", "Gupta", "Kushana"],
+  "answer": "B",
+  "tag": "Ancient History",
+  "difficulty": "Hard"
+},
+{
+  "id": 67,
+  "question": "The 'Jal Jeevan Hariyali Mission' is an initiative of which state?",
+  "options": ["Bihar", "Uttar Pradesh", "Madhya Pradesh", "Rajasthan"],
+  "answer": "A",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 68,
+  "question": "The 'First Round Table Conference' was held in:",
+  "options": ["1929", "1930", "1931", "1932"],
+  "answer": "B",
+  "tag": "Modern History",
+  "difficulty": "Easy"
+},
+{
+  "id": 69,
+  "question": "Which of these is a tributary of the Ganga in Bihar?",
+  "options": ["Yamuna", "Ghaghara", "Gandak", "Betwa"],
+  "answer": "C",
+  "tag": "Geography",
+  "difficulty": "Easy"
+},
+{
+  "id": 70,
+  "question": "The 'Bihar Lokayukta Act' was passed in:",
+  "options": ["1974", "1985", "2011", "2019"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 71,
+  "question": "The 'Sonepur Mela' is held during which Hindu month?",
+  "options": ["Chaitra", "Kartik", "Magh", "Bhadra"],
+  "answer": "B",
+  "tag": "Bihar Special Culture",
+  "difficulty": "Easy"
+},
+{
+  "id": 72,
+  "question": "The 'Pradhan Mantri Awas Yojana-Gramin' aims to provide housing by:",
+  "options": ["2022", "2024", "2026", "2030"],
+  "answer": "B",
+  "tag": "Economics",
+  "difficulty": "Easy"
+},
+{
+  "id": 73,
+  "question": "The 'Nalanda Mahavihara' was destroyed by:",
+  "options": ["Muhammad Ghori", "Bakhtiyar Khilji", "Timur", "Nadir Shah"],
+  "answer": "B",
+  "tag": "Medieval History",
+  "difficulty": "Medium"
+},
+{
+  "id": 74,
+  "question": "The 'Bihar Industrial Investment Promotion Policy' was announced in:",
+  "options": ["2015", "2016", "2019", "2021"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 75,
+  "question": "The 'Gandhi Setu' connects Patna to:",
+  "options": ["Hajipur", "Sonepur", "Munger", "Bhagalpur"],
+  "answer": "A",
+  "tag": "Bihar Special Geography",
+  "difficulty": "Easy"
+},
+{
+  "id": 76,
+  "question": "The 'Indian National Congress' was founded in:",
+  "options": ["1885", "1905", "1919", "1920"],
+  "answer": "A",
+  "tag": "Modern History",
+  "difficulty": "Easy"
+},
+{
+  "id": 77,
+  "question": "The 'Bihar State Tourism Development Corporation' was established in:",
+  "options": ["1974", "1980", "1995", "2005"],
+  "answer": "B",
+  "tag": "Bihar Special Culture",
+  "difficulty": "Medium"
+},
+{
+  "id": 78,
+  "question": "The 'National Food Security Act' was passed in:",
+  "options": ["2005", "2010", "2013", "2015"],
+  "answer": "C",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 79,
+  "question": "The 'Buddhist Stupa' at Kesaria is the tallest in the world and is located in:",
+  "options": ["West Champaran", "East Champaran", "Muzaffarpur", "Vaishali"],
+  "answer": "B",
+  "tag": "Ancient History",
+  "difficulty": "Medium"
+},
+{
+  "id": 80,
+  "question": "The 'Bihar Foundation Day' is celebrated on:",
+  "options": ["15 November", "22 March", "1 April", "26 January"],
+  "answer": "B",
+  "tag": "Bihar Special Culture",
+  "difficulty": "Easy"
+},
+{
+  "id": 81,
+  "question": "The 'Rajgir Mahotsav' is a festival of:",
+  "options": ["Classical dance and music", "Folk arts", "Tribal culture", "Yoga and spirituality"],
+  "answer": "A",
+  "tag": "Bihar Special Culture",
+  "difficulty": "Easy"
+},
+{
+  "id": 82,
+  "question": "The 'Bihar Agricultural University' is located in:",
+  "options": ["Sabour", "Pusa", "Dholi", "Motihari"],
+  "answer": "A",
+  "tag": "Bihar Special Geography",
+  "difficulty": "Medium"
+},
+{
+  "id": 83,
+  "question": "The 'Kosi Mahasetu' connects Bihar to:",
+  "options": ["Nepal", "Jharkhand", "Uttar Pradesh", "West Bengal"],
+  "answer": "A",
+  "tag": "Geography",
+  "difficulty": "Medium"
+},
+{
+  "id": 84,
+  "question": "The 'Bihar Museum Biennale' was first held in:",
+  "options": ["2015", "2018", "2020", "2022"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 85,
+  "question": "The 'Patna High Court' was established in:",
+  "options": ["1912", "1916", "1920", "1936"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 86,
+  "question": "The 'Bihar Diwas' commemorates the state's separation from:",
+  "options": ["Bengal", "Odisha", "Jharkhand", "Uttar Pradesh"],
+  "answer": "A",
+  "tag": "Modern History",
+  "difficulty": "Easy"
+},
+{
+  "id": 87,
+  "question": "The 'Gaya International Airport' is also known as:",
+  "options": ["Jayaprakash Narayan Airport", "Bodhgaya Airport", "Nalanda Airport", "Magadh Airport"],
+  "answer": "B",
+  "tag": "Bihar Special Geography",
+  "difficulty": "Medium"
+},
+{
+  "id": 88,
+  "question": "The 'Bihar State Power Holding Company Limited' was formed in:",
+  "options": ["2005", "2010", "2012", "2015"],
+  "answer": "C",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 89,
+  "question": "The 'Chandragupta Institute of Management' is located in:",
+  "options": ["Patna", "Gaya", "Muzaffarpur", "Darbhanga"],
+  "answer": "A",
+  "tag": "Bihar Special Geography",
+  "difficulty": "Easy"
+},
+{
+  "id": 90,
+  "question": "The 'Bihar State Board of Religious Trusts' was established in:",
+  "options": ["1950", "1960", "1971", "1985"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 91,
+  "question": "The 'Bihar Prohibition Act' was implemented in:",
+  "options": ["2015", "2016", "2018", "2020"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 92,
+  "question": "The 'Valmiki National Park' is located in which district of Bihar?",
+  "options": ["West Champaran", "East Champaran", "Sheohar", "Sitamarhi"],
+  "answer": "A",
+  "tag": "Bihar Special Geography",
+  "difficulty": "Medium"
+},
+{
+  "id": 93,
+  "question": "The 'Bihar Rural Livelihoods Promotion Society' is also known as:",
+  "options": ["JEEViKA", "SEWA", "NRLM", "ASHA"],
+  "answer": "A",
+  "tag": "Economics",
+  "difficulty": "Medium"
+},
+{
+  "id": 94,
+  "question": "The 'Ancient University of Odantapuri' was located in modern-day:",
+  "options": ["Bihar Sharif", "Rajgir", "Nalanda", "Gaya"],
+  "answer": "A",
+  "tag": "Ancient History",
+  "difficulty": "Medium"
+},
+{
+  "id": 95,
+  "question": "The 'Ganga River Dolphin' is the national aquatic animal of India and is locally called:",
+  "options": ["Sisu", "Hihu", "Dhiya", "Bhuya"],
+  "answer": "A",
+  "tag": "Geography",
+  "difficulty": "Medium"
+},
+{
+  "id": 96,
+  "question": "The 'Bihar State Beverages Corporation Limited' was established in:",
+  "options": ["2005", "2010", "2016", "2018"],
+  "answer": "C",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 97,
+  "question": "The 'First Buddhist Council' was held at:",
+  "options": ["Rajgir", "Vaishali", "Pataliputra", "Kushinagar"],
+  "answer": "A",
+  "tag": "Ancient History",
+  "difficulty": "Medium"
+},
+{
+  "id": 98,
+  "question": "The 'Bihar State Food Commission' was constituted under which Act?",
+  "options": ["NFSA 2013", "FSSAI Act", "Essential Commodities Act", "Consumer Protection Act"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 99,
+  "question": "The 'Pataliputra Karbo' was the ancient name of which modern city?",
+  "options": ["Patna", "Gaya", "Rajgir", "Vaishali"],
+  "answer": "A",
+  "tag": "Ancient History",
+  "difficulty": "Medium"
+},
+{
+  "id": 100,
+  "question": "The 'Bihar State Disaster Management Authority' was established in:",
+  "options": ["2005", "2007", "2010", "2015"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+
+  {
+  "id": 101,
+  "question": "The 'Sonepur Cattle Fair' is held near the confluence of which rivers?",
+  "options": ["Ganga-Gandak", "Ganga-Kosi", "Gandak-Kosi", "Son-Ganga"],
+  "answer": "A",
+  "tag": "Bihar Special Geography",
+  "difficulty": "Easy"
+},
+{
+  "id": 102,
+  "question": "The 'Bihar State Tourism Policy' was announced in:",
+  "options": ["2015", "2018", "2020", "2022"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 103,
+  "question": "The 'Ancient Nalanda University' was primarily a center for the study of:",
+  "options": ["Buddhism", "Jainism", "Hinduism", "All of the above"],
+  "answer": "A",
+  "tag": "Ancient History",
+  "difficulty": "Easy"
+},
+{
+  "id": 104,
+  "question": "The 'Bihar State Road Development Corporation' was established in:",
+  "options": ["2005", "2008", "2012", "2015"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 105,
+  "question": "The 'Gandhi Maidan' in Patna was earlier known as:",
+  "options": ["Patna Lawns", "Bankipore Maidan", "Patna Green", "Patna Park"],
+  "answer": "B",
+  "tag": "Modern History",
+  "difficulty": "Medium"
+},
+{
+  "id": 106,
+  "question": "The 'Bihar State Housing Board' was established in:",
+  "options": ["1952", "1960", "1971", "1985"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 107,
+  "question": "The 'Bihar Diwas' commemorates the formation of Bihar as a separate state from Bengal in:",
+  "options": ["1905", "1912", "1936", "1950"],
+  "answer": "B",
+  "tag": "Modern History",
+  "difficulty": "Easy"
+},
+{
+  "id": 108,
+  "question": "The 'Bihar State Minorities Commission' was constituted in:",
+  "options": ["1990", "2000", "2010", "2015"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 109,
+  "question": "The 'Bihar State Board of Wakfs' was established under which Act?",
+  "options": ["Wakf Act 1954", "Wakf Act 1995", "State Legislation", "Central Ordinance"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 110,
+  "question": "The 'Bihar State Electricity Regulatory Commission' was established in:",
+  "options": ["2001", "2005", "2010", "2015"],
+  "answer": "A",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 111,
+  "question": "The 'Bihar State Pollution Control Board' was established in:",
+  "options": ["1974", "1981", "1990", "2000"],
+  "answer": "A",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 112,
+  "question": "The 'Bihar State Khadi and Village Industries Board' was established in:",
+  "options": ["1950", "1956", "1962", "1971"],
+  "answer": "A",
+  "tag": "Economics",
+  "difficulty": "Medium"
+},
+{
+  "id": 113,
+  "question": "The 'Bihar State Scheduled Castes and Scheduled Tribes Commission' was constituted in:",
+  "options": ["1976", "1985", "1990", "2000"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 114,
+  "question": "The 'Bihar State Child Labour Commission' was established in:",
+  "options": ["2005", "2010", "2015", "2018"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 115,
+  "question": "The 'Bihar State Commission for Women' was constituted in:",
+  "options": ["1990", "1995", "2000", "2005"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 116,
+  "question": "The 'Bihar State Legal Services Authority' was established under which Act?",
+  "options": ["Legal Services Authorities Act 1987", "Constitution of India", "Bihar State Act", "Supreme Court Directive"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 117,
+  "question": "The 'Bihar State Human Rights Commission' was constituted in:",
+  "options": ["2000", "2005", "2010", "2015"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 118,
+  "question": "The 'Bihar State Information Commission' was established under which Act?",
+  "options": ["RTI Act 2005", "State Legislation", "Central Ordinance", "Supreme Court Directive"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 119,
+  "question": "The 'Bihar State Election Commission' was constituted in:",
+  "options": ["1994", "2001", "2006", "2010"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 120,
+  "question": "The 'Bihar State Backward Classes Commission' was established in:",
+  "options": ["1975", "1980", "1990", "2000"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+}
+
 
   ]
-}
+
 
