@@ -961,7 +961,248 @@
   "answer": "A",
   "tag": "Polity",
   "difficulty": "Medium"
+},
+{
+  "id": 121,
+  "question": "The 'Bihar State Higher Education Council' was established in:",
+  "options": ["2007", "2010", "2013", "2015"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 122,
+  "question": "The 'Bihar State Innovation Council' was constituted in:",
+  "options": ["2010", "2012", "2015", "2018"],
+  "answer": "A",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 123,
+  "question": "The 'Bihar State Sports University' is located in:",
+  "options": ["Patna", "Gaya", "Motihari", "Munger"],
+  "answer": "D",
+  "tag": "Bihar Special Geography",
+  "difficulty": "Easy"
+},
+{
+  "id": 124,
+  "question": "The 'Bihar State Skill Development Mission' was launched in:",
+  "options": ["2010", "2015", "2017", "2020"],
+  "answer": "B",
+  "tag": "Economics",
+  "difficulty": "Medium"
+},
+{
+  "id": 125,
+  "question": "The 'Bihar State Startup Policy' was announced in:",
+  "options": ["2016", "2017", "2019", "2021"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 126,
+  "question": "The 'Bihar State Film Development Corporation' was established in:",
+  "options": ["1980", "1990", "2000", "2010"],
+  "answer": "A",
+  "tag": "Bihar Special Culture",
+  "difficulty": "Medium"
+},
+{
+  "id": 127,
+  "question": "The 'Bihar State Health Society' was constituted under which program?",
+  "options": ["NRHM", "NUHM", "PMJAY", "Ayushman Bharat"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 128,
+  "question": "The 'Bihar State Water Resources Department' was established in:",
+  "options": ["1950", "1960", "1972", "1985"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 129,
+  "question": "The 'Bihar State Agricultural Marketing Board' was constituted in:",
+  "options": ["1958", "1966", "1973", "1980"],
+  "answer": "B",
+  "tag": "Economics",
+  "difficulty": "Medium"
+},
+{
+  "id": 130,
+  "question": "The 'Bihar State Warehousing Corporation' was established in:",
+  "options": ["1956", "1960", "1965", "1971"],
+  "answer": "A",
+  "tag": "Economics",
+  "difficulty": "Medium"
+},
+{
+  "id": 131,
+  "question": "The 'Bihar State Financial Corporation' was established in:",
+  "options": ["1955", "1960", "1971", "1985"],
+  "answer": "B",
+  "tag": "Economics",
+  "difficulty": "Medium"
+},
+{
+  "id": 132,
+  "question": "The 'Bihar State Industrial Development Corporation' was established in:",
+  "options": ["1960", "1970", "1980", "1990"],
+  "answer": "A",
+  "tag": "Economics",
+  "difficulty": "Medium"
+},
+{
+  "id": 133,
+  "question": "The 'Bihar State Minor Forest Produce Federation' was established in:",
+  "options": ["1974", "1980", "1985", "1990"],
+  "answer": "A",
+  "tag": "Economics",
+  "difficulty": "Medium"
+},
+{
+  "id": 134,
+  "question": "The 'Bihar State Handloom and Handicrafts Corporation' was established in:",
+  "options": ["1960", "1970", "1980", "1990"],
+  "answer": "B",
+  "tag": "Bihar Special Culture",
+  "difficulty": "Medium"
+},
+{
+  "id": 135,
+  "question": "The 'Bihar State Milk Cooperative Federation' is also known as:",
+  "options": ["Sudha", "Amul", "Mother Dairy", "Aavin"],
+  "answer": "A",
+  "tag": "Economics",
+  "difficulty": "Easy"
+},
+{
+  "id": 136,
+  "question": "The 'Bihar State Road Transport Corporation' was established in:",
+  "options": ["1950", "1958", "1960", "1970"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 137,
+  "question": "The 'Bihar State Tourism Development Corporation' was established in:",
+  "options": ["1974", "1980", "1985", "1990"],
+  "answer": "B",
+  "tag": "Bihar Special Culture",
+  "difficulty": "Medium"
+},
+{
+  "id": 138,
+  "question": "The 'Bihar State Bridge Construction Corporation' was established in:",
+  "options": ["1980", "1985", "1990", "1995"],
+  "answer": "A",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 139,
+  "question": "The 'Bihar State Housing Board' was established in:",
+  "options": ["1952", "1960", "1971", "1980"],
+  "answer": "A",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 140,
+  "question": "The 'Bihar State Power Holding Company Limited' was formed in:",
+  "options": ["2010", "2012", "2015", "2018"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 141,
+  "question": "The 'Bihar State Disaster Management Authority' was established in:",
+  "options": ["2005", "2007", "2010", "2015"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 142,
+  "question": "The 'Bihar State Minority Welfare Department' was established in:",
+  "options": ["1980", "1990", "2000", "2010"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 143,
+  "question": "The 'Bihar State Women Development Corporation' was established in:",
+  "options": ["1985", "1990", "1995", "2000"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 144,
+  "question": "The 'Bihar State Scheduled Castes and Scheduled Tribes Finance Development Corporation' was established in:",
+  "options": ["1980", "1990", "2000", "2010"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 145,
+  "question": "The 'Bihar State Backward Classes Finance Development Corporation' was established in:",
+  "options": ["1990", "1995", "2000", "2005"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 146,
+  "question": "The 'Bihar State Minorities Finance Development Corporation' was established in:",
+  "options": ["1990", "1995", "2000", "2005"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 147,
+  "question": "The 'Bihar State Differently Abled Persons Finance Development Corporation' was established in:",
+  "options": ["2000", "2005", "2010", "2015"],
+  "answer": "B",
+  "tag": "Polity",
+  "difficulty": "Medium"
+},
+{
+  "id": 148,
+  "question": "The 'Bihar State Urban Infrastructure Development Corporation' was established in:",
+  "options": ["2005", "2010", "2015", "2020"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 149,
+  "question": "The 'Bihar State Water and Sanitation Mission' was launched under which program?",
+  "options": ["Swachh Bharat Mission", "Jal Jeevan Mission", "National Rural Drinking Water Programme", "AMRUT"],
+  "answer": "B",
+  "tag": "Current Affairs",
+  "difficulty": "Medium"
+},
+{
+  "id": 150,
+  "question": "The 'Bihar State Rural Livelihoods Mission' is also known as:",
+  "options": ["JEEViKA", "SEWA", "NRLM", "ASHA"],
+  "answer": "A",
+  "tag": "Economics",
+  "difficulty": "Easy"
 }
+
 
 
   ]
