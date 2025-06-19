@@ -1,3 +1,7 @@
+.app-container {
+  padding-top: 140px;
+}
+
 /* Layout & Question Box */
 .question-box {
   padding: 20px;
@@ -204,4 +208,200 @@ canvas {
   width: 14px; height: 14px;
   margin-right: 6px;
   border-radius: 3px;
+}
+
+/*retry questions */
+#retryIncorrectBtn {
+  background-color: #ffc107;
+  color: #212529;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#retryIncorrectBtn:hover {
+  background-color: #e0a800;
+}
+/*review div*/
+.review-map-btn,
+#retryIncorrectBtn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.review-map-btn {
+  background-color: #343a40;
+  color: #fff;
+}
+.review-map-btn:hover {
+  background-color: #495057;
+}
+
+#retryIncorrectBtn {
+  background-color: #ffc107;
+  color: #212529;
+}
+#retryIncorrectBtn:hover {
+  background-color: #e0a800;
+}
+
+@media (max-width: 600px) {
+  .question-box {
+    padding: 16px;
+  }
+  .options label {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .navigation button {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+  }
+  #progressText {
+    font-size: 0.75em !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .navigation {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .navigation button {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+/*review all */
+#reviewAllContainer table th,
+#reviewAllContainer table td {
+  font-family: 'Segoe UI', sans-serif;
+}
+#reviewAllContainer table tr:nth-child(even) {
+  background-color: rgba(0,0,0,0.03);
+}
+
+/* Truncate long question text, with fade */
+.review-question-cell {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+.review-question-cell.expanded {
+  max-width: none;
+  white-space: normal;
+  opacity: 1;
+}
+
+/*clock css */
+/* Timer Styles */
+#timerWrapper {
+  position: fixed;
+  z-index: 999;
+  top: 80px;
+  right: 20px;
+  max-width: 90%;
+}
+
+.timer-toggle {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#timerBox {
+  background: var(--card-bg);
+  color: var(--text-color);
+  padding: 12px 16px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  margin-top: 8px;
+  display: block;
+  font-size: 0.95em;
+  width: 240px;
+}
+
+#timerDisplay {
+  font-size: 1.6em;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.timer-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.timer-controls button,
+.timer-controls input {
+  padding: 6px 10px;
+  font-size: 0.85em;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  cursor: pointer;
+}
+
+.timer-controls input {
+  width: 80px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+body.dark-mode .timer-controls input {
+  background-color: #2e2e2e;
+  color: #e8e6e3;
+  border: 1px solid #555;
+}
+
+/* 🔁 RESPONSIVE CHANGES for small screens */
+@media (max-width: 768px) {
+  #timerWrapper {
+    position: fixed;
+    top: auto;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    width: auto;
+  }
+
+  #timerBox {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .timer-controls {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .timer-controls input {
+    width: 60px;
+  }
+
+  #timerDisplay {
+    font-size: 1.3em;
+  }
 }
